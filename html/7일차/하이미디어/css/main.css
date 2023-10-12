@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#wrap{width:100%;}
+.header{width:100%; height:200px; background:#ff6600;}
+.visual{width:100%; height:380px; background:#000;}
+.footer{width:100%; height:450px; background:#cc33ff;}
+
+.content{width:1200px; margin:70px auto;}
+
+.content ul{overflow:hidden;}
+.content ul li{float:left;background:#f1f1f1; color:black; width:25%;box-sizing:border-box; -webkit-box-sizing:border-box; padding:20px 40px; text-align:center;font-weight:450;} 
+.content ul li:nth-child(1){background:red; color:#fff;}
+
+.content .tittle h2,
+.content .tittle p{text-align:center;}
+.content .tittle h2 {padding-top:30px;}
+.content .tittle p {padding-top:10px;margin-bottom:80px;}
+.content .tittle {border-bottom:3px solid #000;}
+
+/*이미지*/
+.content td img {position:absolute;left:280px; top: 15px;}
+.content tr td {position:relative;}
+
+.content tr:nth-child(2) td img:nth-child(2){position:absolute;left:590px; top: 15px;}
+.content tr:nth-child(3) td img {position:absolute;left:790px; top: 15px;}
+
+.content tr:nth-child(5) td img {position:absolute;left:230px; top: 15px;}
+.content tr:nth-child(5) td img:nth-child(3) {position:absolute;left:400px; top: 15px;}
+.content tr:nth-child(5) td img:nth-child(4) {position:absolute;left:470px; top: 15px;}
+
+
+/*이미지*/
+
+
+.content span {display:block; display:inline-block;vertical-align:middle; padding-right:30px;}
+
+.content tr{height: 60px; position:relative;}
+.content th > p {color:red; float:right;  font-size:13px; padding-top:5px; padding-left:5px;}
+.content form{padding-top:15px; vertical-align:middle; }
+.content th:nth-child(1),
+.content  td:nth-child(1){padding-top:10px;}
+.content  th {float:left; font-size:17px;}
+.content  td{padding-bottom:15px; box-sizing:border-box; -webkit-box-sizing:border-box; }
+
+.content table select{background:#f1f1f1;}  
+.content table {width:100%;}
+
+.content  td:nth-child(4){padding-top:20px;}.
+
+.content  tr:nth-child(9) {position:relative;}
+.content  tr:nth-child(9) th {position:absolute; top:100px;}
+.content  tr:nth-child(9) td textarea{background:#f1f1f1;}
+
+.content  tr:nth-child(10) {position:relative;}
+.content  tr:nth-child(10) th {position:absolute; top:80px;}
+.content  tr:nth-child(10) td div{background:#f1f1f1;}
+
+.content  tr:nth-child(10) td div{overflow:scroll; height:265px;font-size:12px; font-weight:500;}
+.content  tr:nth-child(10) td span{font-size:12px; font-weight:500; vertical-align:middle; }
+.content  tr:nth-child(10){ border-bottom:3px solid #000;}
+
+.content .last{padding:10px 30px; width:250px; padding-left:500px;}
+.content .last p{padding-top:8px;text-align:center; font-size:25px;  font-weight:500; border:1px solid #000; height:50px;}
+.content .last p img {padding-left:10px;}

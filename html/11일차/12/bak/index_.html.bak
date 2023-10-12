@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+
+    <header>
+		<h1><a href="index.html"><img src="image/logo.jpg" alt="시나미"></a></h1>
+		<div class="btn_mu"><span class="material-symbols-outlined">menu</span></div>
+    </header>
+	<div class="visual">
+		<div class="inner">
+		    <ul>
+			    <li class="bg1">
+				    <div>
+						<p>강원 구석구석 실속여행<br>감성충만+추억만땅</p>
+						<p>시원한 바람과 함께<br>양떼산책로를 걸어보세요~</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+	    <!-- tag -->
+		<div class="tag">
+			<ul class="inner">
+				<li>#전체</li>
+				<li>#전시</li>
+				<li>#파티</li>
+				<li>#강릉문화인</li>
+				<li>#지역먹거리</li>
+				<li>#지역살거리</li>
+				<li>#추천코스</li>
+				<li>#공유공간</li>
+			</ul>
+		</div>
+		<!-- //tag -->
+		<!-- quick -->
+		<div class="quick">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="image/icon2.png" alt="콘서트">
+						<p>콘서트</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/icon1.png" alt="콘서트">
+						<p>콘서트</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/icon3.png" alt="콘서트">
+						<p>콘서트</p>
+					</a>
+				</li>
+     			<li>
+					<a href="#">
+						<img src="image/icon4.png" alt="콘서트">
+						<p>콘서트</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/icon5.png" alt="콘서트">
+						<p>콘서트</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- //quick -->
+		<!-- program -->
+		<div class="program">
+			<h2 class="inner">이달의 <br>핫 프로그램<a href="#">더보기 ></a></h2>
+			<ul>
+				<li>
+				    <a href="#">
+						<span><img src="image/thumbnail_img1.jpg" alt="콘서트"></span>
+						<p><b>메일 정유진 첫 단독 콘서트</b></p>
+						<p>03.27 ~ 04.05</p>
+					</a>
+				</li>
+				<li>
+				    <a href="#">
+						<span><img src="image/thumbnail_img2.jpg" alt="언택트"></span>
+						<p><b>제 6회 명주인형 극제 언택트</b></p>
+						<p>03.27 ~ 04.05</p>
+					</a>
+				</li>
+				<li>
+				    <a href="#">
+						<span><img src="image/thumbnail_img3.jpg" alt="콘서트"></span>
+						<p><b>메일 정유진 첫 단독 콘서트</b></p>
+						<p>03.27 ~ 04.05</p>
+					</a>
+				</li>
+				<li>
+				    <a href="#">
+						<span><img src="image/thumbnail_img4.jpg" alt="언택트"></span>
+						<p><b>제 6회 명주인형 극제 언택트</b></p>
+						<p>03.27 ~ 04.05</p>
+					</a>
+				</li>
+			</div>
+		</div>
+		<!-- //program -->
+		<!-- people -->
+		<div class="people">
+		    <h2 class="inner">강릉 문화인<a href="#">더보기 ></a></h2>
+			<div class="hot">
+				<span>이달의<p>핫피플</p></span>
+				<p><img src="image/people1.jpg" alt="건축가"></p>
+				<div>
+				    <span>건축가</span>
+					<p><b>강릉에서 게스트 하우스 하기..</b></p>
+					<p>고향에서 제 2의 삶을 살고 있는 기분, <br>건축가 김태희</p>
+				</div>
+			</div>
+			<ul>
+				<li>
+					<p><img src="image/people2.jpg" alt="공예가"></p>
+                    <div>
+					    <span>공예가</span>
+						<p><b>한옥 처마 아래에서 프랑스 센강을 바라보며</b></p>
+						<p>고즈넉한 숲길에 한국과 유럽 풍경을 담다, <br>공예가 고길동</p>
+				    </div>
+				</li>
+				<li>
+					<p><img src="image/people2.jpg" alt="공예가"></p>
+                    <div>
+					    <span>공예가</span>
+						<p><b>한옥 처마 아래에서 프랑스 센강을 바라보며</b></p>
+						<p>고즈넉한 숲길에 한국과 유럽 풍경을 담다, <br>공예가 고길동</p>
+				    </div>
+				</li>
+				<li>
+					<p><img src="image/people2.jpg" alt="공예가"></p>
+                    <div>
+					    <span>공예가</span>
+						<p><b>한옥 처마 아래에서 프랑스 센강을 바라보며</b></p>
+						<p>고즈넉한 숲길에 한국과 유럽 풍경을 담다, <br>공예가 고길동</p>
+				    </div>
+				</li>
+			</ul>
+		</div>
+		<!-- //people -->
+
+	</div>
+	<footer></footer>
+
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+ </body>
+</html>

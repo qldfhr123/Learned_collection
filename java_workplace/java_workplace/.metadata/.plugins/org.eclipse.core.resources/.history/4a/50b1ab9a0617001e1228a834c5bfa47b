@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="session_board.BoardDAO"%>
+<%@page import="session_board.BoardDTO"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<fmt:requestEncoding value="utf-8"/>    
+
+
+<c:set var="title" value="${param.title }"/>
+<c:set var="content" value="${param.content }"/>
+<c:set var="no" value="${param.no }"/>
+no:${no }
+<c:catch var="except">
+	<c:set var="no" value="${Integer.parseInt(param.no) }"/>
+</c:catch>
+
+<c:if test="${except != null }">
+	<c:redirect url="boardModify.jsp?no=${no }"/>
+</c:if>
+
+<c:choose>
+	<c:when test="${empty title or title == null}">
+		<c:redirect url="boardModify.jsp?no=${no }"></c:redirect>
+	</c:when>
+</c:choose>
+<jsp:useBean id="boardDao" class="session_board.BoardDAO"/>
+<c:set var="modify" value="${boardDao.modify(no,title,content) }"/>
+<c:redirect url="boadForm.jsp"></c:redirect>
+
+<% 
+	request.setCharacterEncoding("utf-8");
+	
+	String title = request.getParameter("title");
+	String content = request.getParameter("content");
+	String n = request.getParameter("no");
+	out.print("n : " + n);
+		int no = 0;
+	try{
+		no = Integer.parseInt(n);
+	}catch(Exception e){
+		response.sendRedirect("boardModify.jsp?no="+no);
+		return;
+	}
+	
+	if(title == null || title.isEmpty()){
+		response.sendRedirect("boardModify.jsp?no="+no);
+		return;
+	} 
+	
+	BoardDAO boardDao = new BoardDAO();
+	boardDao.modify(no, title, content); 
+	boardDao.disConnection();
+	
+	response.sendRedirect("boardForm.jsp");
+		
+%>

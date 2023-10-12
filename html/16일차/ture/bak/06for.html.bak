@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script language="JavaScript">
+  /*
+		증가함수
+		for(초기값; 조건문; 증가랑) 특정구문을 여러번 반복하고 싶을때 사용하는 반복문
+  */
+	hap = 0 // 오직 1번실행되면 그 이후로 실행되지않음
+	for(i = 1; i <= 100; i++){
+		hap += 1
+	}
+	document.write("합계는", hap);
+  </script>
+ </body>
+</html>

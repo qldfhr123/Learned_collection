@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*gnb*/
+ .gnb {width:100%; margin-top:25px;border-top:1px solid #ddd; border-bottom:1px solid #ddd;position:relative;overflow:hidden;z-index:1;}
+
+  .gnb > ul {font-size:0; }
+  .gnb > ul li:nth-child(1) a {height:59px;background:url(../image/gnb_off.jpg) no-repeat;  background-position:10px 20px;}
+.gnb > ul li:nth-child(1) a img {position:absolute; top:10px; left:10px;}
+  .gnb > ul li:nth-child(1){width:170px; height:59px; line-height:57px;text-align:center; font-weight:500;margin-right:20px;margin-left:0;}
+  .gnb > ul li:nth-child(1):hover{background:#6410b0; color:#fff;}
+ .gnb > ul li:nth-child(1):hover a {color:#fff; background:url(../image/gnb_on.jpg)no-repeat; background-position:10px 20px;}
+  .gnb > ul li:nth-child(1){border-left: 1px solid #ddd; border-right: 1px solid #ddd;}
+   .gnb > ul li:nth-child(1)  a img{vertical-align:middle; padding-right:16px; margin-top:-5px;}
+  .gnb > ul li {font-size:15px; display:inline-block; margin-left: 30px;height:57px;line-height:57px;font-weight:500;position:relative;}
+  .gnb > ul li a {vertical-align:middle;height:57px; display:block; padding:0 10px;}
+  .gnb > ul li:hover a{ border-bottom:2px solid #000; position:relative; z-index:99;}
+  .gnb > ul li.sle a {border-bottom:2px solid #000; position:relative; z-index:99;}
+   .gnb > ul{  border-right:1px solid #ddd;}
+
+.quick {width:110px; height:511px;}
+
+
+
+
+
+

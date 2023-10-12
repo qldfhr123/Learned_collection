@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Nanum Gothic"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+.content{width:550px; margin:0 auto; overflow: hidden;} /*(margin:0 auto;)가운데 정렬 제발 좀...*/
+.content .box{float:left; width: 35%;}
+.content .list{float:right;width: 65%; box-sizing:border-box;} /*(box-sizing:border-box;)비율 안에 고정값*/
+
+
+.content .box p{font-size:12px; color:#555; margin-top: 8px;}
+.content .list ul li{font-size:12px; color:#555; margin: 5px 0 ; line-height:145%;}
+
+/*.content .list p {color:#000000; overflow:hidden; float:left; vertical-align:top; font-size:15px; margin:0 auto;}
+.content .box,
+.content .box {vertical-align:top; }
+.content .img p{width:35%;}
+.content .list p{width:65%; padding:0 80px 0 20px;}*/

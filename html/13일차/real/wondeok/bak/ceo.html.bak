@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+
+    <div id="wrap">
+	    <!-- header -->
+		<div class="header">
+		    <!-- top -->
+			<div class="top">
+				<div class="inner">
+					<h1><a href="#"><img src="../../image/logo.jpg" alt="행복한 원덕"></a></h1>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">로그인</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+					<div class="search">
+						<a href="#"><span class="material-symbols-outlined">search</span></a>
+					</div>
+				</div>
+			</div>
+			<!-- //top -->
+			<!-- gnb -->
+			<div class="gnb inner">
+				<ul>
+					<li><a href="#">행복한 원덕은?</a></li>
+					<li><a href="#">사업분야</a></li>
+					<li><a href="#">대표상품</a></li>
+					<li><a href="#">사회서비스</a></li>
+					<li><a href="#">커뮤니티</a></li>
+				</ul>
+			</div>
+			<!-- //gnb -->
+		</div>
+		<!-- //header -->
+
+		<!-- sub_visual -->
+		<div class="sub_visual">
+			
+		</div>
+		<!-- //sub_visual -->
+
+		<!-- sub_content -->
+		<div class="sub_content">
+			
+		</div>
+		<!-- //sub_content -->
+
+		<!-- footer -->
+		<div class="footer">
+			<div class="sns">
+				<div class="inner">
+					<h3>033-650-3320</h3>
+					<p><a href="#"><img src="image/footer_img.png" alt="강원도 사회적기업"></a></p>
+					<div>
+						<h4>행복한 원덕 <b>SNS</b></h4>
+						<ul>
+							<li>
+							    <a href="#"><img src="image/facebook.png" alt="페이스북"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/instagram.png" alt="인스타그램"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/blog.png" alt="블로그"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/youtube.png" alt="유투브"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="info inner">
+				<ul>
+					<li>
+						<b>상호</b> (주)행복한원덕 사회적기업인증&nbsp;&nbsp;&nbsp;
+						<b>대표자명</b> 김경식
+					</li>
+					<li>
+						<b>주소</b> 강원도 삼척시 원덕읍 옥원노곡1길 15-52&nbsp;&nbsp;&nbsp;
+						<b>전화</b> 033-575-9959
+					</li>
+					<li>
+						<b>사업자번호</b> 429-86-01072&nbsp;&nbsp;&nbsp;
+						<b>통신판매신고번호</b> 제2019-강원강릉-0041호
+					</li>
+					<li>
+						<b>메일</b> happywondeok@naver.com&nbsp;&nbsp;&nbsp;
+					</li>
+				</ul>
+			</div>
+			<div class="copy">
+				<div class="inner">copyright (c) happywondeok inc. all rights reserved.</div>
+			</div>
+		</div>
+		<!-- //footer -->
+    </div>
+
+  
+ </body>
+</html>

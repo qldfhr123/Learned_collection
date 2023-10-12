@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+#wrap{width:100%;margin:0 auto; position:relative;}
+.inner{width:1300px; margin:0 auto;}
+.inner12{width:1200px; margin:0 auto;}
+
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+	margin-top:27px;
+	
+}	
+.nav {padding:0 100px; vertical-align:middle;text-align:center;position:relative;}
+.nav > a:first-child{float:left;}
+.nav ul {font-size:0; text-align:center;padding-right:90px;}
+.nav ul li {display:inline-block; height:50px; line-height:50px;}
+.nav ul li a{color:#fff; font-size:18px;padding-right:65px;font-weight:600;}
+.nav ul li:last-child a {padding-right:0px; }
+.nav > a:last-child span {position:relative; padding-left:45px; color:#d4b318;float:right; font-weight:500;position:absolute;right:100px;top:17px;}
+.nav > a span:after{position:absolute; content:""; width:48px; height:42px; left:-5px; top:-12px;}
+.nav > a:last-child span:after {background:url(../image/icon_tel.png)no-repeat;}
+
+/*visual*/
+.visual {display:table; height:803px; width:100%; background:url(../image/main/vis.jpg)no-repeat center center;}
+.visual > div {display:table-cell; height:100%; vertical-align:middle; text-align:center;color:#fff;} 
+.visual > div p {font-size:35px;font-weight:100;}
+.visual > div h2 {font-size:50px;font-weight:700; color:#e8b33f;}
+
+/*menu*/
+.menu { width:100%; margin:0 auto; padding-top:100px; padding-bottom: 180px;overflow:hidden;}
+.menu > .tit {display:table;margin-bottom:73px;}
+.menu > .tit > div {display:table-cell; height:100%; vertical-align:middle; text-align:center;color:#fff;position:relative;} 
+.menu > .tit > div > h3 {font-size:25px;color:#41392e;padding-bottom:20px;letter-spacing:1px;}
+.menu > .tit > div > h3 > span {color:#d81e29;}
+.menu > .tit > div > span {display:block; height:1px; width:39px; background:#ccb488;position:absolute;top:60px; left:48.5%;} 
+.menu > .tit > div > p {font-size:18px; color:#9b8f81;padding-top:30px;}
+
+.menu > ul {font-size:0;}
+
+/*리스트 공통*/
+.menu > ul li {display:inline-block;margin-right: 25px; border-radius: 40px 0px 40px 0px; -wekit- border-radius: 40px 0px 40px 0px; -moz-border-radius: 40px 0px 40px 0px; padding:40px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; position:relative;}
+.menu > ul li a > div h3 {font-size:27px;font-weight:400;}
+.menu > ul li a > div p {font-size:15px;padding:10px 0; color:#795227;}
+.menu > ul li a > div b {font-size:50px;color:#d81e29;font-weight:400;}
+
+/*노란박스*/
+.menu > ul li.yellow {width:650px; height:251px; background:#ffbf37; margin-left:37px;}
+.menu > ul li.yellow a > h1 > img {position:absolute; left:-25px; }
+.menu > ul li.yellow a > h2 > img {float:right; margin-right:-25px;margin-top:-25px;}
+.menu > ul li.yellow a > div b {font-size:50px;color:#d81e29;font-weight:600;}
+.menu > ul li.yellow a > div {font-size:15px; text-align:right; position:absolute;bottom:65px;right:35px;}
+/*노란박스*/
+
+.menu > ul li.image{float:right;box-shadow:none;margin-top:40px; padding:0;}
+.menu > ul li.image a {font-size:15px; color:#000; }
+
+/*하얀박스*/
+.menu > ul li.white {width:251px; height:400px;background:#fff; padding-top:55px;float:left;margin-top: 25px;}
+.menu > ul li.white a > h1 > img {position:absolute; left:-25px; bottom:-45px; }
+/*하얀박스*/
+
+/*오트밀 박스*/
+.menu > ul li.oat	{width:370px; height:252px;background:#dfdac7;float:left;margin-top:25px;}
+.menu > ul li.oat a > h1 > img {position:absolute;right:-25px; bottom:-50px; }
+/*오트밀 박스*/
+
+/*올리브 박스*/
+.menu > ul li.olive {width:251px; height:580px;background:#a2a659;float:right;margin-top:-250px;margin-left:-25px;}
+.menu > ul li.olive a > h1 > img {position:absolute;right:-130px; bottom:-80px; }
+.menu > ul li.olive a > div b {font-size:50px;color:#d81e29;font-weight:600;}
+/*올리브 박스*/
+
+
+.dlvy {width:100%; margin:0 auto;}
+.dlvy .left{float:left;width:50%;height:557px; position:relative;
+background-color: #b93411; opacity:1;}
+.dlvy .left:after{display:block; width: 950px;height: 557px;content: "";position: absolute;top: 0;left: 0;
+ background:url(../image/main/store_bg.png)no-repeat; opacity:0.1; }
+.dlvy .left .text {width:580px; height:180px; position:absolute; top:140px; left:190px; text-align:left; color:#fff;position:relative;}
+.dlvy .left .text > a  {position:absolute;right:-5px; bottom:-10px;z-index:1;}
+.dlvy .left .text > p {font-size:12px;color:#fff; }
+.dlvy .left .text > h2 {font-size:50px; font-weight:300;color:#fff;}
+.dlvy .left .srh  {width:580px; position:absolute; bottom:150px; left:190px;}
+.dlvy .left .srh > label {position:absolute; bottom:17px; right:75px;}
+
+.dlvy .right{float:left;width:50%; height:557px; background:#b2946e;position:relative;}
+.dlvy .right .text {width:580px; height:180px; position:absolute; top:140px; left:190px; text-align:left; color:#fff;position:relative;}
+.dlvy .right .text > a  {position:absolute;right:-5px; bottom:-10px;}
+.dlvy .right .text > p {font-size:12px;color:#fff; }
+.dlvy .right .text > h2 {font-size:50px; font-weight:300;color:#fff;}
+.dlvy .right > ul {font-size:0;position:absolute; bottom:100px; left:210px;}
+.dlvy .right > ul li {display:inline-block; padding-left:30px;}
+
+.event {width:100%; height:1280px; margin:0 auto; display:table;background:url(../image/main/event_bg.jpg)no-repeat center center;position:relative; }
+.event > div {padding-top:107px; display:table-cell; height:100%; vertical-align:top; text-align:center;color:#fff;position:relative;} 
+.event > div > h3 {font-size:25px;color:#41392e;padding-bottom:20px;letter-spacing:-1px;}
+.event > div > span {display:block; height:1px; width:39px; background:#ccb488;position:absolute;top:167px; left:48.5%;} 
+.event > div > p {font-size:18px; color:#9b8f81;padding-top:30px;}
+.event > ul {font-size:0;position:absolute;top:278px; left:400px;}
+.event > ul li {display:inline-block; margin-right:100px;}
+.event > ul li:nth-child(1) a {position:absolute;top:290px;left:0}
+.event > ul li:nth-child(4) a {position:absolute;top:290px;right:0}
+.event > ul li > a span {display:block;font-weight:200; font-size: 60px; color:#ae8c73;text-align:center;}
+.event > ul li a > p{font-size:12px; color:#666666;padding-top:18px; padding-left:28px;}
+.event > ul li a > h2{font-size:25px; color:#666666;padding-top:18px; padding-left:28px;font-weight:400;}
+.event > ul li:last-child{margin-right:0;}
+.event > ul li:nth-child(2) a img {width:405px; height:543px;}
+.event > ul li:nth-child(2),
+.event > ul li:nth-child(3){ background:#fff; width:405px; height:690px; overflow:hidden;  border-radius: 40px 0px 40px 0px; -wekit- border-radius: 40px 0px 40px 0px; -moz-border-radius: 40px 0px 40px 0px;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+
+.etc {width:100%; padding-top:90px;display:table;}
+.etc > .inner12 { display:table-cell; height:100%; vertical-align:top; text-align:center;color:#fff;position:relative;} 
+.etc > .inner12 > div h3 {font-size:25px;color:#41392e;padding-bottom:20px;letter-spacing:-1px;}
+.etc > .inner12 > div h3 > span {color:#d81e29;}
+.etc > .inner12 > div > span {display:block; height:1px; width:39px; background:#ccb488;position:absolute;top:50px; left:48.5%;} 
+.etc > .inner12 > div > p {font-size:18px; color:#9b8f81;padding-top:30px;}
+
+.etc > .inner12 > .top {margin-top:60px;height:357px;}
+.etc > .inner12 > .top .left{float:left;}
+.etc > .inner12 > .top .left  > ul li:first-child{border-top:1px solid #000;}
+.etc > .inner12 > .top .left > ul li {border-bottom:1px solid #000; width:570PX; height:88px;display:flex; align-items:center;}
+.etc > .inner12 > .top .left > ul li a{display:flex;   justify-content:start; align-items:center;}
+.etc > .inner12 > .top .left > ul li a span{display:block; font-size:12px; width:35px; height:35px;border:2px solid #8a8985;line-height:35px;margin-left:18px;}
+.etc > .inner12 > .top .left > ul li a p {margin-left:60px;font-size:18px;width:150px;text-align:left;}
+.etc > .inner12 > .top .left > ul li a b {font-size:18px;}
+
+.etc > .inner12 > .top .right{float:right;}
+.etc > .inner12 > .top .right ul {width:570px;height:357px;}
+.etc > .inner12 > .top .right ul li{display:inline-block;}
+.etc > .inner12 > .top .right ul li:nth-child(1){padding-right:10px;padding-bottom:16px;}
+.etc > .inner12 > .top .right ul li:nth-child(3){padding-right:5px;}
+
+.etc > .inner12 .bottom {margin-top:160px;font-size:15px; color:#000; height:270px;padding-bottom:195px;}
+.etc > .inner12 .bottom .b_left {float:left; width:720px; height:270px; background:url(../image/main/process.png) no-repeat; position:relative; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+.etc > .inner12 .bottom .b_left > div {color:#fff; text-align:left; padding:35px 35px;}
+.etc > .inner12 .bottom .b_left > div h2 {font-weight:600;font-size:35px;}
+.etc > .inner12 .bottom .b_left > div h2 b {font-weight:600;padding-bottom:15px; border-bottom:1px solid #fff;}
+.etc > .inner12 .bottom .b_left > div p {padding-top:30px; opacity:0.7;}
+.etc > .inner12 .bottom .b_left > div a span{width:120px; height:40px; line-height:40px;  display:block;position:absolute; bottom:35px; left:35px; border:1px solid #fff; color:#fff; text-align:center;
+display:flex;   justify-content:center; align-items:center;}
+.etc > .inner12 .bottom .b_left > div a span > img {padding-left:13px;}
+
+.etc > .inner12 .bottom .b_right {float:right;width:420px; height:270px;background:#aa885b;border-radius: 40px 0px 40px 0px;position:relative; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+.etc > .inner12 .bottom .b_right > div {color:#fff; text-align:left; padding:35px 35px;}
+.etc > .inner12 .bottom .b_right > div h2 {font-weight:600;font-size:35px;}
+.etc > .inner12 .bottom .b_right > div h2 b {font-weight:600;padding-bottom:15px; border-bottom:1px solid #fff;}
+.etc > .inner12 .bottom .b_right > div p {padding-top:30px; opacity:0.7;}
+.etc > .inner12 .bottom .b_right > div a span{width:120px; height:40px; line-height:40px;  display:block;position:absolute; bottom:35px; left:35px; border:1px solid #fff; color:#fff; text-align:center;
+display:flex;   justify-content:center; align-items:center;}
+.etc > .inner12 .bottom .b_right > div a span > img {padding-left:13px;}
+
+
+.etc > .inner12 .tel {width:100%; background:#e4d4ba;}
+.etc > .inner12 .tel .inner{height:100px; line-height:100px;display:flex;   justify-content:start;align-items:center;}
+.etc > .inner12 .tel .inner p {font-size:15px; color:#000; font-weight:600;float:left;margin-right:35px; }
+.etc > .inner12 .tel .inner a {float:right;padding:25px 0;}
+.etc > .inner12 .tel .inner a span {display:block; color:#fff;font-size:20px; font-weight:600; width:254px; height:54px; line-height:54px; background:#d81e2b;}
+
+
+/*input*/
+.etc > .inner12 .tel .inner .name {position:relative; padding-left:55px;background:#fff;margin-right:35px; }
+.etc > .inner12 .tel .inner .name > span{position:absolute; left:15px; top:11px; color:#000;font-size:30px;}
+
+.etc > .inner12 .tel .inner .tell {position:relative; padding-left:55px;background:#fff;margin-right:20px; }
+.etc > .inner12 .tel .inner .tell > span{position:absolute; left:15px; top:11px; color:#000;font-size:30px;}
+
+.etc > .inner12 .tel .inner > span {display:block; width:8px; height:3px; background:#fff;margin-right:20px;}
+
+
+.footer{width:100%;margin:0 auto; display:table;}
+.footer .f_inner{width:600px;margin:0 auto; display:table-cell; vertical-align:middle; text-align:center;height:250px;}
+.footer .f_inner {font-size:15px;line-height:30px;} 
+.footer .f_inner b {padding-left:13px; padding-right:24px;}
+ .copy{width:100%;margin:0 auto; text-align:center;height:65px; line-height:65px;color:#a89575; border-top:1px solid #ddd; font-weight:500;}
+
+.q_mu {position:absolute; right:138px; top:350px;}
+.q_mu a{position: fixed;}

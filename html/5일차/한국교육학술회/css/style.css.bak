@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+html,body{font-size:16px; color:#2f2c28; font-weight:300;}
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,p,ul,ol,li{font-family:'Noto Sans KR'; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+.warp {width:1200px; margin:0 auto;}
+
+.warp h1 {text-align:center; font-weight:500; font-size:20px;margin-top:80px; margin-bottom:50px;}
+
+.content{display: block;font-size: 0; /* 가장 중요한 font-size: 0; 속성 */margin: 0 -5px;}
+.left{display:inline-block;width: 50%;vertical-align: top; padding: 0 5px; vertical-align: middle;box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+
+.left ul {display: block;font-size: 0;font-size: initial;}
+.left ul li {display:inline-block; font-size:12px; margin-left:40px; vertical-align: middle; margin-top:10px; text-align:center; margin-bottom:70px;}
+.left ul li p {margin-top:5px; text-align:center;}
+
+
+
+
+.right {margin:0 auto;display:inline-block;width: 50%; height: 100%;vertical-align: top; padding: 0 5px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+.right ul {margin-top: 10px;}
+.right ul li {border-bottom:1px solid #666;padding:11px 0 ;font-size: 14px;text-align: left; margin-left: 40px;}
+.right ul li:first-child{font-weight: 700; font-size: 20px; padding:3px;border-bottom:3px solid #000000; margin-bottom:2px;}
+.right ul li span{padding-left: 450px;}
+
+.bottom {margin: 0 auto;width:800px;  color:#ffffff; margin-top:40px;text-align:center;line-height:100px;font-size:20px; padding:0 10px;}
+.bottom .text2 p{float:right;vertical-align: middle; padding: 0 100px; }
+.bottom ul{font-size:0;}
+.bottom ul li{ width:170px; height:-10px;display:inline-block; margin-right:20px; border:1px solid white;font-size:17px; line-height:100px; display:inline-block; background:#000066;}
+

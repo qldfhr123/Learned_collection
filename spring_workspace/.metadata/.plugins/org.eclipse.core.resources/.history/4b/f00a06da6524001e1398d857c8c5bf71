@@ -1,0 +1,20 @@
+package com.care.dbQuiz.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.mail.javamail.JavaMailSender;
+
+@Configuration
+public class MailConfig {
+	@Bean
+	public JavaMailSender mailSender() {
+		JavaMailSenderImpl jms = new JavaMailSenderImpl();
+		jms.setHost
+		
+		
+		
+		return null;
+		
+	}
+
+}

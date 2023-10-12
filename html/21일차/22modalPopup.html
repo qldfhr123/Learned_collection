@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style type ="text/css">
+	a{text-decoration:none; color:#000;}
+	#pop1, #pop2 {position:absolute; background:#ccc; border:1px solid red; width:250px;height:400px; text-align:center;}
+	#pop1{top:90px; left:100px; display:none; background:#66ccff;}
+	#pop2{top:130px; left:150px; display:none; background:#ffcc00;}
+  </style>
+  <script language="JavaScript">
+	function evt(newwin){
+		var objID = document.getElementById(newwin);
+		if(objID.style.display == "block"){
+			objID.style.display = "none"
+		}else{
+			objID.style.display = "block"
+		}
+	}
+  </script>
+ </head>
+ <body>
+   <p><a href = "#" onclick="evt('pop1')">이벤트보기</a></p>
+   <p><a href = "#" onclick="evt('pop2')">이벤트보기2</a></p>
+
+   <div id ="pop1">
+		<h2>event1</h2>
+		<p>이벤트보기1</p>
+		<p><input type="checkbox" onclick="evt('pop1')"><label>닫기</label></p>
+   <div>
+   <div id ="pop2">
+		<h2>event2</h2>
+		<p>이벤트보기2</p>
+		<p><input type="checkbox" onclick="evt('pop2')"><label>닫기</label></p>
+   <div>
+ </body>
+</html>

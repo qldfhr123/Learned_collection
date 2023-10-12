@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.mb_50{margin-bottom:50px; border-bottom:1px solid #ddd; padding-bottom:50px;}
+.item{
+    margin:3px;
+	padding:2px;
+	border:3px solid currentColor;/*CSS3에서 도입, color를 상속으로 처리*/ 
+	border-radius:3px;
+	font-weight:bold;
+	background:#ffcc00;
+}
+
+/*container1*/
+.container1{
+    display:flex;
+	/*
+	안쪽 요소의 가로방향 배치(바깥쪽 요소는 block처럼 줄바꿈), 컨텐츠 내용만큼 width 차지, height는 container높이만큼 확장
+    display:inline-flex; inline-block과 동일하게 가로방향 배치(안쪽/바깥쪽 모두 가로방향)
+	*/
+	background:#f5f5f5;
+	padding:5px;
+}
+
+/*container2*/
+.container2-1{
+    display:flex;
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+	flex-direction:row;/*안쪽 요소의 가로방향 배치*/
+}
+.container2-2{
+    display:flex;
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+	flex-direction:column;/*안쪽 요소의 세로방향 배치*/
+}
+.container2-3{
+    display:flex;
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+	flex-direction:row-reverse;/*안쪽 요소의 가로방향 역순 배치, 오른쪽 정렬*/
+}
+.container2-4{
+    display:flex;
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+	flex-direction:column-reverse;/*안쪽 요소의 세로방향 역순 배치*/
+}
+
+/*container3*/
+.container3-1{
+    width:200px;
+	display:flex;
+	flex-wrap:nowrap;/*제한된 영역 안에서 줄바꿈 없음, 안쪽 요소의 내용이 넘치면 밖으로 넘쳐나감*/
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+}
+.container3-2{
+    width:200px;
+	display:flex;
+	flex-wrap:wrap;/*제한된 영역안에서 줄바꿈, float/inline-block으로 배치한 요소들과 비슷하게 동작*/
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+}
+.container3-3{
+    width:200px;
+	display:flex;
+	flex-wrap:wrap-reverse;/*제한된 영역안에서 줄바꿈, 안쪽 요소의 역순 배치*/
+	background:#f5f5f5;
+	padding:5px;
+	margin-bottom:20px;
+}
+.container3-4 {
+    width:200px;
+	display:flex;
+	flex-flow:row wrap;/*flex-direction:row;와 flex-wrap:wrap;을 줄여서 적용*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+
+/*container4*/
+.container4-1{
+    display:flex;
+	justify-content:flex-start;/*flex-direction이 row(가로배치)일때 왼쪽, column(세로배치)일때는 위쪽*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container4-2{
+    display:flex;
+	justify-content:flex-end;/*flex-direction이 row(가로배치)일때 오른쪽, column(세로배치)일때는 아래쪽*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container4-3{
+    display:flex;
+	justify-content:center;/*안쪽 요소를 가로 가운데 정렬*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container4-4{
+    display:flex;
+	justify-content:space-between;/*안쪽 요소 사이(between)에 균일한 간격*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container4-5{
+    display:flex;
+	justify-content:space-evenly;/*안쪽 요소의 사이와 양끝에 균일한 간격, IE와 Edge 지원 불가*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container4-6{
+    display:flex;
+	justify-content:space-around;/*안쪽 요소의 주변(around)에 균일한 간격 = margin의 좌우*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+
+/*container5*/
+.container5-1{
+    display:flex;
+	align-items:stretch;/*안쪽 요소를 바깥쪽 요소의 높이만큼 끝까지 확장*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+	height:150px;
+}
+.container5-2{
+    display:flex;
+	align-items:flex-start;/*안쪽 요소를 시작점 기준으로 정렬, flex-direction이 row(가로 배치)일 때는 위쪽, column(세로 배치)일 때는 왼쪽*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+	height:150px;
+}
+.container5-3{
+    display:flex;
+	align-items:flex-end;/*안쪽 요소를 끝점 기준으로 정렬, flex-direction이 row(가로 배치)일 때는 왼쪽, column(세로 배치)일 때는 아래쪽*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+	height:150px;
+}
+.container5-4{
+    display:flex;
+	align-items:center;/*안쪽 요소를 세로 가운데 정렬*/
+	background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+	height:150px;
+}
+
+/*container6*/
+.container6-1{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container6-1 .item{flex-basis:100px;}
+/*안쪽 요소의 기본 크기 설정(flex-direction이 row일때는 넓이, column일때는 높이), auto가 기본값, 컨텐츠의 크기만틈 영역 사용*/
+/*width가 100px이 안되는 $$$와 %%%는 100px로 늘어났고, 원래 100px이 넘는 ###는 그대로 유지*/
+
+.container6-2{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container6-2 .item{width:100px;}
+
+.container6-3{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container6-3 .item{flex-grow:1;}
+/*바깥쪽 요소의 영역이 안쪽 요소의 영역보다 넓은 경우 남은 공간을 분배하는 비율, 안쪽 요소가 flex-basis의 값보다 커질 수 있는지 설정, 0 기본값*/
+/*안쪽 요소의 flex-basis를 제외한 여백부분을 flex-grow에 지정된 숫자의 비율로 각각의 item의 넓이(or 높이)에 할당*/
+
+.container6-4{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container6-4 .item:nth-child(1){flex-grow:1;}
+.container6-4 .item:nth-child(2){flex-grow:3;}
+.container6-4 .item:nth-child(3){flex-grow:1;}
+
+/*container7*/
+.container7-1{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+	width:300px;
+}
+.container7-1 .item:nth-child(1){
+    flex-shrink:0;
+	/*바깥쪽 요소의 영역이 안쪽 요소의 영역보다 작은 경우 줄어드는 비율, 안쪽 요소가 flex-basis의 값보다 작아질 수 있는지 설정, 기본값 1, 고정값*/
+	width:100px;
+}
+.container7-1 .item:nth-child(2){flex-grow:1;}
+
+/*container8*/
+.container8-1{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+/*.container8-1 .item{
+    /*flex:1; 바깥쪽 영역이 늘어나거나 줄어들 경우 같은 비율로 변하되 바깥족 영역을 기준으로 크기 설정
+    flex-grow:1; flex-shrink:1; flex-basis:0%;*/
+	/*flex:1 1 auto; 바깥쪽 영역이 늘어나거나 줄어들 경우 같은 비율로 변하되 안쪽 영역의 컨텐츠 길이에 맞춰 크기 설정
+	flex-grow:1; flex-shrink:1; flex-basis:auto;*/
+	/*flex:1 500px; 늘어나거나 줄어들 경우 500px 고정
+	flex-grow:1; flex-shrink:1; flex-basis:500px;
+}*/
+.container8-1 .item{flex:1 1 0;}
+.container8-1 .item:nth-child(2){flex:2 1 0;}
+
+/*container9*/
+.container9-1{
+    display:flex;
+	flex-wrap:wrap;/*제한된 영역안에서 줄바꿈, float/inline-block으로 배치한 요소들과 비슷하게 동작*/
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container9-1 .item{flex:1 1 10%;}
+
+/*container10*/
+.container10-1{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container10-1 .item:nth-child(1){order:3;}/*aaa*/
+.container10-1 .item:nth-child(2){order:1;}/*bbb*/
+.container10-1 .item:nth-child(3){order:2;}/*ccc*/
+
+/*container11*/
+.container11-1{
+    display:flex;
+    background:#f5f5f5;
+    padding:5px;
+	margin-bottom:20px;
+}
+.container11-1 .item:nth-child(2){
+    z-index:1;
+	transform:scale(2);/*scaleX(2), scaleY(2) 둘다 2배 확대*/
+}

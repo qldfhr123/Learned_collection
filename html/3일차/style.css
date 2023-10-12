@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*ex*/
+/*ul.ex li:first-child{color:red;}
+ul.ex li:last-child{color:blue;}
+ul.ex li:nth-child(2){color:green;}
+ul.ex li:nth-child(3n){color:orange;}
+ul.ex li:nth-child(odd){color:brown;}*/
+ul.ex li:nth-child(even){color:aqua;}
+
+
+/*
+first-child 첫번째
+last-child 마지막
+nth-child() n번째
+nth-child(2n) 2의 배수
+nth-child(odd) 홀수
+nth-child(even) 짝수
+*/
+
+
+/*레이아웃*/
+.wrap{width:750px; margin:0 auto;}
+.wrap .left,
+.wrap .right{float:left; height:800px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+.wrap .left{width:60%; background:;}
+.wrap .right{width:40%; background:; padding-left:30px;}
+
+.left h4,
+.left h4{color;#222; letter-spacing:-1px; padding-bottom:20px;}
+
+.right h4,
+.right h4{color;#222; letter-spacing:-1px; padding-bottom:20px;}
+
+.left > div p {font-size:13px; color:#444; font-weight:300;  line-height:145%;letter-spacing:-0.5px; margin-bottom:5px; }
+.left > div p b{font-size:21px; color:#222; font-weight:700;}
+.left > div p span{font-size:14px; color:#396dbb; margin-left:10px;  margin-bottom:10px;}
+
+.left > ul{margin-top:20px;}
+.left > ul li {font-size:16px; margin-bottom:7px;}
+.left > ul li a {color:#222; font-weight:500; }
+.left > ul li a span {font-size:14px; color:#396dbb; margin-left:10px;}
+
+
+/*right*/
+
+.right > ul li{font-size:14px; padding-bottom:20px;}
+.right > ul li a {color:#222; font-weight:500;}
+.right > ul li a p:list-child{color:#396dbb;} /*p + p 2번째 p*/

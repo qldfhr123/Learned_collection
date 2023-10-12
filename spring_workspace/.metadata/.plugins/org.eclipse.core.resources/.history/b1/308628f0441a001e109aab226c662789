@@ -1,0 +1,40 @@
+package com.care.cs.session;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.support.SessionStatus;
+
+@Controller
+public class SessionController {
+	@RequestMapping("session/index")
+	public void index() {
+		
+	}
+	
+	@RequestMapping("session/login")
+	public void login() {
+		
+	}
+	@RequestMapping("session/login")
+	public void login(String id, String pw) {
+		
+	}
+	@PostMapping("session/logout")
+	public String logout(String id, String pw, HttpSession session) {
+		if("admin".equals(id) && "1234".equals(pw)) {
+			session.setAttribute("id", "admin");
+			return "redirect:index";
+		}
+		return "session/login";
+	}
+	@RequestMapping("session/logout")
+	public String logout(HttpSession session) {
+		session.invalidate();
+		return "redirect:index";
+		
+	}
+
+
+}

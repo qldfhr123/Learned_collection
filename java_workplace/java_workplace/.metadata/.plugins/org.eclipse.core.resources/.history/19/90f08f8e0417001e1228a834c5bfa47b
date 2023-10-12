@@ -1,0 +1,93 @@
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="session_board.BoardDAO"%>
+<%@page import="session_board.BoardDTO"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+ 
+<c:import url="header.jsp"></c:import>
+<c:catch var="except">
+	<c:set var="no" value="${Integer.parseInt(param.no) }"/>
+</c:catch>
+
+<c:if test="${except != null }">
+	<c:redirect url="boardForm.jsp"/>
+</c:if>
+<jsp:useBean id="boardDao" class="session_board.BoardDAO" />
+<c:set var="board" value="${boardDao.searchForModify(no)}"/>
+<c:if test="${empty board }">
+response.sendRedirect("boardContent.jsp?no="+no);
+<c:redirect url="boardContent.jsp?no=$no} }"></c:redirect>
+
+</c:if>
+${boardDao.disConnection()}
+<jsp:useBean id="boadrdDto" class="session_board.BoardDTO"/>
+<c:if  test="${empty boardDto.FileName}">
+	boardDto.FileName=" ";
+</c:if>
+
+    <%
+	    String n = request.getParameter("no");
+		int no = 0;
+		try{
+			no = Integer.parseInt(n);
+		}catch(Exception e){
+			response.sendRedirect("boardContent.jsp?no="+no);
+			return;
+		}
+		
+		BoardDAO boardDao = new BoardDAO();
+		BoardDTO board = boardDao.searchForModify(no);
+		boardDao.disConnection();
+		
+		if(board == null){
+			response.sendRedirect("boardContent.jsp?no="+no);
+			return;
+		}
+		
+		if(board.getFileName() == null)
+			board.setFileName("");
+    %>
+<div align="center">
+<form action="boardModifyService.jsp" method="post">
+	<input type="hidden" name="no" value="<%=board.getNo() %>" />
+	<h1>게시글 수정</h1>
+	
+	<table border='1'>
+		<tr>
+			<th width="100">작성자</th>
+			<td width="200"><%=board.getId() %></td>
+			<th width="100">조회수</th>
+			<td width="200"><%=board.getHits() %></td>
+		</tr>
+		<tr>
+			<th>작성일</th>
+			<td><%=board.getWriteDate() %></td>
+			<th>다운로드</th>
+			<td><%=board.getFileName() %></td>
+		</tr>
+		<tr>
+			<th>제목</th>
+			<td colspan="3">
+				<input style="width:100%;" type="text" name="title" value="<%=board.getTitle()%>" />
+			</td>
+		</tr>
+		<tr>
+			<th>문서내용 수정</th>
+			<td colspan="3">
+				<textarea rows="10" cols="30" style="width:100%" name="content"><%=board.getContent() %>
+				</textarea>
+			</td>
+		<tr>
+			<td colspan="4">
+				<button type="button" onclick="location.href='boardForm.jsp'">이전</button>
+				<input type="submit" value="수정">
+				<button type="button" onclick="history.back()">이전</button> 
+				<!--게시글에 번호를 달아준다 기록한 url로 돌아간다 histroy (스크립트 언어)-->
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+    
+    <c:import url="header.jsp"></c:import>

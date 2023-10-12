@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+   <style type="text/css">
+	div{float:left; background:#ff0000; margin-right:20px;}
+	.r1{width:150px;height:150px; border-radius:100px;}
+	.r2{width:150px;height:150px; border-radius:200px; border:3px solid #000;}
+	.r3{width:150px;height:200px; border-radius:200px 0 0 200px;}
+	/*top left            top-right                   bottom-right           bottom-left*/
+	.r4{width:150px;height:100px; border-radius:200px 200px 0 0;}
+	.r5{width:150px;height:100px; border-radius:200px  0 0 0;}
+	.r6{width:150px;height:100px; border-radius: 0 200px 0 0;}
+	.r7{width:150px;height:150px; border-top-left-radius:80px; border-top-right-radius:80px;}
+	
+
+  </style>
+
+ </head>
+ <body>
+
+  <div class ="r1"> </div>
+  <div class ="r2"> </div>
+  <div class ="r3"> </div>
+  <div class ="r4"> </div>
+  <div class ="r5"> </div>
+  <div class ="r6"> </div>
+  <div class ="r7"> </div>
+  
+
+ </body>
+</html>

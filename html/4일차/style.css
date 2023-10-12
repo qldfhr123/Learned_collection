@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*레이아웃*/
+#wrap{width:100%; margin:0 auto;}
+#header{width:100%; height:130px; background:tomato;}
+#content{width:1080px; margin:50px auto; border-top:1px solid #888; overflow:hidden;}
+#content .left,
+#content .center{float:left; border-right:1px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box;}
+/*border 1px등 별도 추가되더라도 width 753px안에서 넓이를 더 늘리지않고 다 포함하는 기능 box-sizing:border-box;*/
+#content .right{float:right;}
+
+#content .left{width:106px;}
+#content .center{width:648px;}
+#content .right{width:326px;}
+
+#footer{width:100%; height:100px; background:teal;}
+
+/*left*/
+.left{height:500px; background:#eee;}
+
+/*center*/
+.center .inner{width:92%; margin:0 25px;}
+.center .inner .box{margin:20px 0; border-bottom:1px solid #ddd; padding-bottom:20px;}
+.center .inner .box h2{font-size:20px; color:#000; font-weight:500; border-bottom:1px solid #ccc; padding-bottom:10px;}
+
+.news_content{overflow:hidden;}
+.news_content h4{font-size:14px; color:#3f63bf; font-weight:500; padding:20px 0;}
+.news_content h4 span{float:right;}
+.news_content > p,
+.news_content > div{float:left;}
+.news_content > p{width:25%;}
+.news_content > div{width:75%;}
+.news_content > div p{font-size:15px; font-weight:500; margin-bottom:7px;}
+.news_content > div p + p{font-size:13px; color:#555; font-weight:300; line-height:145%;}
+.news_content > div p + p + p{font-size:12px; color:#777;}
+
+.center .inner .box > ul{border-left:2px solid #eee; margin-top:15px; padding-left:10px;}
+.center .inner .box > ul li{font-size:15px; font-weight:500; line-height:145%; margin-bottom:7px;}
+.center .inner .box > ul li a{color:#222;}
+.center .inner .box > ul li span{font-size:12px; color:#777; font-weight:300; padding-left:5px;}
+
+/*right*/
+.right .list{margin-top:20px; padding-left:25px;}
+.right .list h2{font-size:15px; color:#000; font-weight:500; margin-bottom:15px;}
+
+.right .list ul li{overflow:hidden; font-size:13px; color:#333; font-weight:400; line-height:145%; padding-bottom:7px;}/*안쪽 여백*/
+.right .list ul li div{float:left; width:68%; border-bottom:1px solid #ddd; padding:7px 0;}
+.right .list ul li div p{font-size:12px; color:#555; font-weight:300;}
+.right .list ul li span{float:right;}
+/*span은 width, height 적용 불가-주로 이미지 적용*/

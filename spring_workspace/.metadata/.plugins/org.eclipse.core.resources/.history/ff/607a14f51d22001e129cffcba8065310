@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.care.ajaxBasic.AjaxMapper">
+	<select id="exists">
+		SELECT id FROM session_quiz WHERE id=#{id}
+	</select>
+	
+	<insert id="jsonInsert" parameterType="com.care.ajaxBasic.AjaxVO">
+		insert into json_table values (#{title},#{artist},#{price})
+	</insert>
+	
+	<delete id="jsonDelete">
+		delete from json_table
+	</delete>
+	
+	<select id="ex6" parameterType="com.care.ajaxBasic.AjaxVO">
+		SELECT * FROM json_table
+	</select>
+	
+	<select id="serach" parameterType="com.care.ajaxBasic.AjaxVO">
+		SELECT * FROM json_table
+	</select>
+</mapper>

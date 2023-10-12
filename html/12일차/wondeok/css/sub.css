@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.inner{width:1200px; margin:0 auto;}
+
+
+
+.sub_visual{display:table; width:100%; height:423px; background:url(../image/about/vis_bg.jpg) no-repeat center center;}
+.sub_visual > div{display:table-cell; height:100%; vertical-align:middle; text-align:center; color:#fff;}
+.sub_visual > div h2{font-size:35px; font-weight:700; padding-top:160px;}
+.sub_visual > div h3{font-size:15px;font-weight:300; line-height:35px;}
+
+.sub_content .inner{display:table;}
+.sub_content .inner > ul{display:table-cell; width:240px; padding-right:32px; }
+.sub_content .inner > ul li {width:240px;border-left:1px solid #dedede;border-right:1px solid #dedede; text-align:center; height:70px; line-height:70px; font-weight:300}
+.sub_content .inner > ul li:nth-child(1) {background:url(../image/tit_bg.jpg) no-repeat center center;height:165px;line-height:165px;  font-size:25px; font-weight:500; }
+
+.sub_content .inner > ul li:nth-child(2){background:#008efe; color:#fff;}
+.sub_content .inner  > ul li:nth-child(2) a{color:#fff;}
+
+.sub_content .inner > ul li:nth-child(2),
+.sub_content .inner  > ul li:nth-child(3),
+.sub_content .inner  > ul li:nth-child(4),
+.sub_content .inner  > ul li:nth-child(5){border-bottom:1px solid #dedede; }
+
+.sub_content .inner  > ul li:nth-child(3):hover,
+.sub_content .inner  > ul li:nth-child(4):hover,
+.sub_content .inner >  ul li:nth-child(5):hover {background:#008efe; color:#fff;}
+
+.sub_content .inner >  ul li:nth-child(3):hover a,
+.sub_content .inner >  ul li:nth-child(4):hover a,
+.sub_content .inner >  ul li:nth-child(5):hover a{color:#fff;}
+
+
+.sub_content .inner .qqq{ width:928px ;height:165px;line-height:165px; display:table; border-bottom:1px solid #dedede;}
+.sub_content .inner .qqq > h2 {font-size:30px;  }
+.sub_content .inner .qqq >  ul {font-size:0; overflow:hidden; margin-top:-175px;}
+.sub_content .inner .qqq >  ul li{float:right; display:inline-block;font-size:12px; }
+
+.sub_content .inner .intext {padding-top:140px; padding-left:35px;width:960px;position:relative;}
+.sub_content .inner .intext > span{color:#008efe;font-size:30px;font-weight:500;}
+.sub_content .inner .intext > img {position:absolute;right:80px; top:80px;display:block;}
+.sub_content .inner .intext > p{font-size:20px; color:#000;padding-top:50px;}
+.sub_content .inner .intext > div > p{font-size:15px; color:#000;padding-top:100px; padding-bottom:130px;}
+

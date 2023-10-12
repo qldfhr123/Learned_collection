@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*공통스타일*/
+
+body,h1,h2,h3,h4,h5,h6,p,table,tr,th,td{font-family:"돋움"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+
+
+/*table*/
+#table_wrap{margin:100px auto; width:400px;}
+#table_wrap td{padding: 10px 0;}
+#table_wrap img{width:98px;}
+
+
+
+#table_wrap td p.title{font-size:13px; color:#3399ff;}
+#table_wrap td p.con_text{font-size:14px; color:#222; letter-spacing: -0.5px; line-height:145%; padding: 7px 40px 7px 0;} /*spacing 글자간*/
+#table_wrap td p.marker{font-size:12px; color:#555;}
+
+
+#table_wrap td p.con_text2{font-size:14px; color:#222; letter-spacing: -0.5px; line-height:145%; padding: 7px 60px 7px 0;}  /*두번째 */
+
+#table_wrap td p.con_text3{font-size:14px; color:#222; letter-spacing: -0.5px; line-height:145%; padding: 7px 50px 7px 0;} /*세번째*/

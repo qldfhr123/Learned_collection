@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>display position</title>
+  <link rel="stylesheet" href="0317style1.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+ 	<div class = "boxA">
+		<a href = "#">1</a>
+		<a href = "#">2</a>
+		<a href = "#">3</a>
+		<a href = "#">4</a>
+		<a href = "#">5</a>
+		<a href = "#">5</a>
+		<a href = "#">5</a>
+
+	</div>
+
+	<div class ="block_box">
+		<p>캬라멜 마끼아또 <span>바닐라 라떼</span></p>
+		<p>프라 <strong>사과</strong></p>
+	</div>
+	
+	<div class = "a">a</div>
+	<div class = "b">b</div>
+	<div class = "c">v</div>
+	
+		<p class= "h100"><p>
+
+	<div class = "d">1</div>
+	<div class = "e">2</div>
+	<div class = "f">3</div>
+	<div class = "fix">4</div>
+	
+
+	<div class ="m1">
+		<ul>
+			<li><a href ="#">m1-1</a></li>
+			<li><a href ="#">m1-2</a></li>
+			<li><a href ="#">m1-3</a></li>
+			<li><a href ="#">m1-4</a></li>
+		</ul>
+	</div>
+	
+	 <div class ="m2">
+		<ul>
+			<li><a href ="#">m2-1</a></li>
+			<li><a href ="#">m2-2</a></li>
+			<li><a href ="#">m2-3</a></li>
+			<li><a href ="#">m2-4</a></li>
+		</ul>
+	</div> 
+	<p class= "h100"></p>
+		<div class = "prolist">
+			<ul>
+				<li>
+					<span>best</span>
+					<img src = "pro.jpg" alt = " ">
+				</li>
+				<li>
+					<span>best</span>
+					<img src = "pro.jpg" alt = " ">
+				</li>
+				<li>
+					<span>best</span>
+					<img src = "pro.jpg" alt = " ">
+				</li>
+			</ul>
+		</div>
+	
+
+ </body>
+</html>

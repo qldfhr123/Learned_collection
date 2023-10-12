@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style type="text/css">
+	.hor_box {width:600px; 
+						height:150px;
+						background:#ffff00;
+						border:3px solid #000;
+						
+						display:box; /*block을 수직 수평 배치 float대신사용*/
+						box-orient:horizontal;/*가로 정렬 수평방향 배치 기본값*/
+						box-align:stretch; /*안쪽 요소의 넓이가 hor_box 넓이와 같게 확징된 뒤 연이어 배치*/
+
+						display:-wedkit-box; /*구글*/
+						-wedkit-box-orient:vertical;
+						webkit-box -align:strethch;
+
+						display:-moz-box;
+						-wedkit-box-orient:vertical;
+						webkit-box -align:strethch;
+						}
+		.hor_box > div{border:1px solid red;
+									 text-align:center;
+									}
+
+		.ver_box{
+						 width:500px;
+						 height:200px;
+						 background:#ffff0;
+						 border:3px  solid #000;
+
+						 display:box; /*block을 수직 수평 배치 float대신사용*/
+						box-orient:horizontal;/*가로 정렬 수평방향 배치 기본값*/
+						box-align:stretch; /*안쪽 요소의 넓이가 hor_box 넓이와 같게 확징된 뒤 연이어 배치*/
+
+						display:-wedkit-box; /*구글*/
+						-wedkit-box-orient:vertical;
+						webkit-box -align:strethch;
+
+						display:-moz-box;
+						-wedkit-box-orient:vertical;
+						webkit-box -align:strethch;
+						  }
+
+		.hor_box > div,
+		.ver_box > div{border:1px solid red;
+									 text-align:center;}
+		.flex_a {box_flex:1;
+					   wedkit-box-flex:1;
+					   moz-box-flex:1;}
+
+		/*
+			box-flex는 0 1 값을 가지고있다
+			1은 오버되는 박스를 확장
+			0은 오버되는 박스를 확장x default
+		*/
+  </style>
+ </head>
+ <body>
+  
+  <div class = "hor_box">
+  	<div class = "flex_a" style = "width:100px;">1</div> <!--div 안에 css 태그기능 추천하지않음-->
+  	<div class = "flex_a" style = "width:100px;">2</div>
+  	<div class = "flex_a" style = "width:100px;">3</div>
+  	<div class = "flex_a" style = "width:100px;">4</div>
+  	<div class = "flex_a" style = "width:100px;">5</div>
+  	<div class = "flex_a" style = "width:100px;">6</div>
+  </div>
+
+
+ <div class = "ver_box">
+  	<div class = "flex_a"">1</div> <!--div 안에 css 태그기능 추천하지않음-->
+  	<div class = "flex_a" ">2</div>
+  	<div class = "flex_a" style = "height:40px;">3</div>
+  	<div class = "flex_a" style = "height:40px;">4</div>
+  </div>
+
+
+
+
+
+
+
+
+ </body>
+</html>

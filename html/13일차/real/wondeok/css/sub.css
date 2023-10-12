@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.sub_visual{height:424px}
+.sub_visual.bg1{ background:url(../image/about/vis_bg.jpg) no-repeat center center;}
+.sub_visual.bg2{ background:url(../image/business/vis_bg.jpg) no-repeat center center;}
+
+.sub_visual .inner {display:table; height:100%;}
+.sub_visual .inner > div {display:table-cell; height:100%; color:#fff; text-align:center; vertical-align:center;}
+.sub_visual .inner > div h2 {font-size:40px; font-weight:500; padding-top:240px; margin-bottom:8px;}
+.sub_visual .inner > div p {font-size:20px; font-weight:400;}
+
+.sub_content {width:1200px; margin:0 auto; overflow:hidden;}
+.sub_menu {float:left; width:240px;}
+.container {float:right; width:930px;}
+
+.sub_menu h2{height:164px; line-height:164px; background:url(../image/tit_bg.jpg) no-repeat center center; font-size:24px; color:#222; font-weight: 400; text-align:center; border:1px solid #ddd;}
+.sub_menu ul li {font-size:18px; }
+.sub_menu ul li a {display:block; padding:20px 0;text-align:center; border:1px solid #ddd; border-top:0;}/*서로 겹치니까*/
+
+.sub_menu ul li a:hover{background:#338cfa; color:#fff;}
+.sub_menu ul li a.active{background:#338cfa; color:#fff;}
+
+.container {position: relative;}
+.container > h2 {font-size:40px; font-weight:500; color:#000; letter-spacing:-1px; border-bottom:1px solid #ddd;height:165px; line-height:165px; margin-bottom:50px;}
+
+.location {position:absolute; right:0; top:70px;}
+
+/***********************************************ebdt*****************************************/
+.about_ceo{position: relative;}
+.about_ceo > span {position:absolute; right:0; top:0;}
+.about_ceo > div {width:50%; padding-top:50px; margin-bottom:50px;}
+.about_ceo > div h3{font-size:36px;color:#338cfe;font-weight:500;line-height:115%; margin-bottom:40px;}
+.about_ceo > div h4 {font-size:24px; color:#5b5b5b; font-weight:400; margin-bottom:5px;}
+.about_ceo > div p {font-size:20px; color:#5b5b5b;}
+.about_ceo > p{font-size:17px; line-height:145%; margin-bottom:15px;} 
+.about_ceo > p:last-child{margin-bottom:200px;}
+
+/********************************************재정지원*********************************************/
+
+.business_fnc > h3 {font-size:36px; color:#338cfe;font-weight:500; margin-bottom:40px;}
+.business_fnc .inner_box {background:#a8b8cc; font-size:17px; color:#fff; line-height:145%; letter-spacing:-1px; text-align:center; padding:30px; margin-bottom:40px;}
+
+.business_fnc table{width:100%; border-top:1px solid #000; margin-bottom:40px;}
+.business_fnc table th,
+.business_fnc table td{border-bottom:1px solid #ddd; padding:15px 10px;}
+.business_fnc table th{border-bottom:1px solid #000;}
+.business_fnc table td{vertical-align:top; font-size:15px; color:#555; line-height:145%;}
+
+.business_fnc .innovate{background:url(../image/business/innovate_bg.jpg) no-repeat center center; height:405px;margin-bottom:40px; display:table;}
+.business_fnc .innovate > div {display:table-cell; width:100%; height:100%; vertical-align:middle; padding:40px;}
+.business_fnc .innovate > div{color:#fff; font-family:'GmarketSansMedium'; }
+.business_fnc .innovate > div h3{font-size:28px; text-decoration:underline;}
+.business_fnc .innovate > div h4  {font-size:55px; font-family:'GmarketSansBold';}
+.business_fnc .innovate > div p { opacity:0.7;}
+
+.business_fnc ul {font-size:0; text-align:center;}
+.business_fnc ul li{display:inline-block; width:33.3%; font-size:15px; color:#222;}
+.business_fnc ul li p{line-height:145%; color:#555;}
+.business_fnc ul li b {font-family:'GmarketSansMedium'; font-size:24px; font-weight:100; line-height:145%;display:block; margin-bottom:15px;}
+.business_fnc ul li p:last-child{margin-bottom:200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

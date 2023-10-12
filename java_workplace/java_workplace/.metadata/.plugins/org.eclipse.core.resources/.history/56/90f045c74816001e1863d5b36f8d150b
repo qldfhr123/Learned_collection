@@ -1,0 +1,44 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>userInfo</title>
+</head>
+<body>
+<c:import url="header.jsp"></c:import>
+	
+
+	
+	<c:choose>
+		<jsp:useBean id="memberDto" class="session_quiz.MemberDTO"/>
+		<c:when test="${empty sessionScope.id }"/>
+			<c:redirect url ="login.jsp"/>
+		<c:when test="${empty memberDto.id }"/>
+			<c:redirect url="memberinfo"/>
+		<c:when test="${sessionScope.id != memberDto.id }"/>
+			<c:redirect url="memberinfo"/>
+		<c:otherwise/>
+			<jsp:useBean id="memberDao" class="session_quiz.MemberDAO"/>
+			${memberDao.disConnection() }
+
+	
+	<div align="center">
+		<h1>개인 정보</h1>
+		아이디 : ${memberDto.id } <br> 
+		비밀번호 : ${memberDto.pw }<br>
+		이름 : ${memberDto.user_name }<br>
+		주소 : ${memberDto.address } <br>
+		전화번호 : ${memberDto.mobile } <br><br>
+		<button type="button" onclick="location.href='update.jsp'">회원 수정</button>
+		<button type="button" onclick="location.href='delete.jsp'">회원 삭제</button>
+	</div>	
+			</c:choose>
+		<c:import url="footer.jsp"></c:import>
+</body>
+</html>
+
+

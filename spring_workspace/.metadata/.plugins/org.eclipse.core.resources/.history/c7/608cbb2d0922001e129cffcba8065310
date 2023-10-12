@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.care.ajaxBasic.AjaxMapper">
+	<select id="exists">
+		SELECT id FROM session_quiz WHERE id=#{id}
+	</select>
+	
+	<select id=jsonInsert">
+		SELECT * FROM json_table
+	</select>
+	
+	<insert id="jsonInsert">
+		insert into json_table values (#{title},#{artist},#{price})
+	</insert>
+</mapper>

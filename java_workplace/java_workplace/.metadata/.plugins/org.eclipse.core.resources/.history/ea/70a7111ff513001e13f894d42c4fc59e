@@ -1,0 +1,42 @@
+<%@page import="session_quiz.MemberDTO"%>
+<%@page import="session_quiz.MemberDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	String msg = "";
+	if(id == null || id.isEmpty()){
+		msg = "아이디는 필수항목입니다";
+		response.sendRedirect("login.jsp");
+	}
+	else if (pw == null || pw.isEmpty()){
+		msg = "비밀번호는 필수항목입니다";
+		response.sendRedirect("login.jsp");
+	}
+	else{
+		MemberDAO memberDao = new MemberDAO();
+		MemberDTO memberDto = memberDao.selectId(id);
+		
+		
+		if(memberDto != null && memberDto.getPw().equals(pw)){
+			
+			msg= "로그인 성공";
+			
+			session.setAttribute("id", memberDto.getId());
+			session.setAttribute("userName", memberDto.getUser_name());
+			session.setAttribute("address", memberDto.getAddress());
+			session.setAttribute("mobile", memberDto.getMobile());
+			response.sendRedirect("index.jsp");
+		}
+		else{
+			msg = "아이디 / 비밀번호가 일치하지 않습니다 다시 한번 확인후 입력해주세요";
+			response.sendRedirect("login.jsp");
+		}
+		memberDao.disConnection();
+	}
+	
+	
+%>
+<script>alert('msg'); </script>

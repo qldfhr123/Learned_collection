@@ -1,0 +1,22 @@
+package com.care.cs.session;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class SessionController {
+	@RequestMapping("session/index")
+	public void index() {
+		
+	}
+	
+	@RequestMapping("session/login")
+	public void login() {
+		
+	}
+	@RequestMapping("session/login")
+	public void login(String id, String pw) {
+		
+	}
+
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+
+.boxA{width:300px; margin:0 auto; border:1px solid #ddd; padding:30px;}
+.boxA a{display:block; width:200px; padding:10px; margin: 8px 0; background:skyblue; border-right:10px solid blue;}
+
+/*
+a,b, strong, span - width height 값 적용 불가 
+블럭(block) 이용해 a,b, strong, span - width   값 적용
+블럭(block) 요소 : div h1 ~ h6 p ul ol form
+display 화면 에 어떻게 드러나게 할지 (레이아웃)결정하는 속성
+display:block; 넓이 높이 마진 줄바꿈 (div 기본값과 동일)
+dis:line-block; 넓이 높이 마진 가로정렬 float 동일
+display:none 태그기능 실행불가 화면에서 사라짐
+*/
+
+.boxA a:hover{border-right:10px solid #6600ff; color:#6600ff;}
+
+
+.block_box{width:500px; margin:100px auto; background:#ff00cc; padding:30px;}
+/*margin:100px* auto 50px 위 중앙 아래*/
+
+.block_box p span{display: block; width:200px; color:#ff00cc;}
+.block_box p strong{display: inline-block; width:200px; background:#ff00cc; color: #6600ff;}
+.a{width:200px; height:100px; background: #cc6600;}
+.b{position:relative;  left:200px;  top:50px; width:200px; height:100px; background: #336600;}
+.c{width:200px; height:100px; background: #66ccff;}
+
+/*
+div, h1~h6 ul p박스
+position 좌표 left rigth  top bottokm값 사용 가능( left rigth top vottom으로부터 떨어저라)
+position: relatvie; 자표 상대값
+position: absolute; 자표 절대값
+position: fixed; 자표 고정값
+
+z-idex 숫자; 박스 (레이어) 순서 변경, 숫자 클수록 위로
+*/
+
+.h100{height:100px;}
+
+.d{position: absolute;width:200px; height:100px; background: #f44600; z-index:3;}
+.e{position: absolute; width:200px; height:100px; background: #cc0020; margin:20px; z-index:2;}
+.f{position: absolute;width:200px; height:100px; background: #cc7700; margin:40px;z-index:1}
+.fix{position:fixed; right:50px; top:200px; width:50px; height: 300px; background:#ddd; border:4px dotted blue;}
+
+.m1{width:800px; margin:80px auto;}
+.m1 ul{overflow:hidden; border-bottom:2px solid #000;}
+.m1 ul li{float:left; background: #ccffcc; padding:10px 30px; border-right: 1px solid #000; border-top:1px solid 
+#000;}
+
+.m1 ul li:frist-child{border-left: 1px solid #000;}
+
+
+.m2{width:800px; margin:80px auto;background: #cc99ff; padding:30px;}
+.m2 ul {font-size:0;border-bottom:2px solid #000; text-align:center}
+.m2 ul li {font-size:17px; padding : 10px 30px; display:inline-block; border-right:1px solid #fff; border-top:1px solid #fff;}
+.m2 ul li:frist-child{border-left: 1px solid #fff;}
+
+/*
+가로메뉴
+가로 정렬 float :left; / display:inline-block;
+float:left; 부모 요소에 overflow:hidden; 줘야 상태값지정 가능
+display-inline:block; 각자 여백생성, 여박을 없애기 위해 부모 요소에 font-size:0;지정
+*/
+
+.prolist{width:1000px; margin:0 auto; background: #99cc00;}
+.prolist ul{overflow:hidden; padding:30px;}
+.prolist ul li {position: relative; float:left; width:33.3%; border:1px solid red; padding: 0 20px; box-sizing:border-box; -webkit-box-sizing:border-box;} /*기준*/
+/*rigth:20px; 기준이 되는 좌표태그 li에 padding:0 20px; 있기때문*/
+.prolist ul li span {position:absolute;  right:20px; display:block; width:50px; background:#000;height:50px;font-size:12px; color:#fff; font-weight:bold; text-align: center;}
+
+.prolist ul li img {width:100%;}
+
+.pagecut{background:#ccffff; padding: 50px 0; width:80; margin:0 auto;}
+.pagecut ul{font-size:0; text-align:center;}
+.pagecut ul li{display:inline-block; font-size:16px;vertical-align:middle;}
+.pagecut ul li a{display:}
+.pagecut ul li a .slectec{color:red; font-weigth:300px;}
+
+.bgbox{width:70%; height: 500px; margin:100px auto; border:1px solid red;background:red url(img.jpg) no-repeat 30px center;}
+
+
+/*
+background:색상 이미지 경로 반복여부 위치;
+no-repaet 반복없음
+repect -x 가로 반복
+repect-y 세로반복
+ background: position: 좌 상;
+*/
+
+
+.bullet{width:300px; margin:100px auto; background:#eee; padding:30px;}
+.bullet ul li{font-size:18px;}
+.bullet ul li a{display:block; padding:10px 0  10px 30px; border-bottom: 1px solid red; background:url(arrow3.png) no-repeat 0 55%;}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body{background:#ebf0f4;}
+
+#wrap{width:1240px; margin:50px auto;}
+.content h2{font-size:38px; font-weight:700; color:#26a19c; margin-bottom:25px;}
+.content h2 span{color:#000;}
+.content h2 p{display:inline-block; font-size:15px; font-weight:400; color:#555; height:40px; line-height:40px; border-left:1px solid #ddd; padding-left:20px; margin-left:20px; position:relative; top:-6px;}
+
+/*box*/
+.box{overflow:hidden;}
+.box .quick{float:left; width:300px; height:595px; background:#155f8c; border-radius:15px;}
+.box .inner{float:right; width:925px;}
+.box .inner .in{float:left; height:290px; border-radius:15px; padding:40px 0 0 40px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+.box .inner .in:nth-child(1),
+.box .inner .in:nth-child(4){width:610px; background:#fff;}
+.box .inner .in:nth-child(2),
+.box .inner .in:nth-child(3){width:300px; position:relative;}
+.box .inner .in:nth-child(2){background:#26a19c;}
+.box .inner .in:nth-child(3){background:#1698c9;}
+
+.box .inner .in:nth-child(1),
+.box .inner .in:nth-child(3){margin-right:15px;}
+.box .inner .in:nth-child(1),
+.box .inner .in:nth-child(2){margin-bottom:15px;}
+.box .inner .in:nth-child(4){overflow:hidden; position:relative;}
+
+/*quick*/
+.quick {padding:30px; box-sizing:border-box; -webkit-box-sizing:border-box; }
+.quick ul{overflow:hidden;}
+.quick ul li{float:left; width:50%; height:120px; text-align:center; margin-bottom:25px; vertical-align:top;} /*텍스트2줄 높이값지정*/
+.quick ul li span{display:block;}
+.quick ul li p{font-size:15px; color:#fff; font-weight:300;}
+
+.in:nth-child(1) {overflow:hidden;}
+.in:nth-child(1) .left{float:left; width:44 %;}
+.in:nth-child(1) .right{float:right; width:56%;}
+
+.in:nth-child(1) .left > h2{font-size:23px; color:#222; font-weight:500; letter-spacing:-1px; margin-bottom:10px;}
+
+.in:nth-child(1) .left > p{font-size:15px; color:#888; letter-spacing:-1px; line-height:145%}
+.in:nth-child(1) .left >  span{display:block; padding-top:20px;}
+
+.in:nth-child(1) .right > ul li{margin-bottom:5px; font-size:0;}
+.in:nth-child(1) .right > ul li div {position:relative;display:inline-block; font-size:15px; color:#333; border:1px solid #ddd;width:225px;
+height:51px;border-radius: 5px;font-weight:400 ;line-height:51px; padding-left:20px;
+box-sizing:border-box; -webkit-box-sizing:border-box; }/*높이 만큼 지정*/
+.in:nth-child(1) .right > ul li p {display:inline-block;background:black; font-size:15px; color:#fff; width:51px;
+height:51px; border-radius: 5px; line-height:51px;text-align:center;margin-left:5px;}
+.in:nth-child(1) .right > ul li div span {display:block; position:absolute; right:20px; top:-2px;}
+
+.in:nth-child(2) > h2,
+.in:nth-child(3) > h2 {font-size:23px; color:#fff; font-weight:500; letter-spacing:-1px; margin-bottom:10px;}
+
+.in:nth-child(2) > p,
+.in:nth-child(3) > p {font-size:15px; color:#fff; letter-spacing:-0.5px; line-height:145%;}
+
+.in:nth-child(2) > p span{display:block; margin-top:90px;}
+.in:nth-child(3) > p span{display:block; margin-top:70px;}
+
+.in:nth-child(2) > span,
+.in:nth-child(3) > span {position: absolute;right: 0;bottom: -5px;}
+
+.in:nth-child(4) > h2 {font-size:23px; color:#222; font-weight:500; letter-spacing:-1px; margin-bottom:20px;}
+.in:nth-child(4) > h2 b{color:#1c7ea2;}
+.in:nth-child(4) > h2 strong{color:#17837e;}
+.in:nth-child(4) > h2 span{display:inline-block; height:20px; line-height:20px; border-left:1px solid #ddd; font-size:15px; color:#666; font-weight:400; padding-left:20px; margin-left:15px;}
+
+
+.in:nth-child(4) > .left{float:left; width:30%;}
+.in:nth-child(4) > .right{float:right; width:70%;}
+
+.in:nth-child(4) >.left ul li,
+.in:nth-child(4) >.right ul li{font-size:15px; color:#777; font-weight:400; letter-spacing:-1px;margin-bottom:15px;}
+.in:nth-child(4) >.right > span{display:block; position: absolute;right: 60px;bottom: -5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

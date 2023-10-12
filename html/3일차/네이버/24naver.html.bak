@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+	    <!-- 내부 영역이면 paddding -->
+    <div id="wrap">
+	    <!-- 헤더 시작 -->
+		<div id="header"></div>
+		<!-- 헤더 종료 -->
+
+		<!-- 컨텐츠 시작 -->
+		<div id="content">
+			<div class="left"></div>
+			<div class="center">
+				<div class ="inner">
+					<!--news warp-->
+					<div class ="box">
+						<h2>헤드 라인 뉴스</h2>
+
+						<div class = "news_content">
+							<h4>출근길 다시 꽃샘추위 아침기온 3 ~ 7도 뚝<span>&gt;</span></h4>
+							<p><img src ="weather.jpg" alt="헤드라인 이미지"></p>
+							<div>
+								<p>	<b>다시 찾아온 꽃샘추위…내일 아침 기온 영하권으로 ‘뚝'</b>
+										목요일인 16일은 따뜻한 남서풍을 불러일으키던 남해상 고기압이 동쪽으로 빠져나가면서
+										꽃샘추위가 찾아올 것으로 보인다. 기상청에 따르면 16일 아침 최저기 …
+										동	아일보 | 10
+								</p>
+							</div>
+						</div>
+
+						<ul>
+							<li><a href = "#">출근길 다시 꽃샘 추위... 오후 황사 유입 미세먼지 '나쁨[오늘날씨]' </a><span>뉴스1</span></li>
+							<li><a href = "#">"패딩꺼내세요"....다시찾아온 출근길 추위[오늘의 날씨]</a><span>머니투데이</span></li>
+							<li><a href = "#">낮 8 ~ 18도로 어제보다낮아....내일도 꽃샘추위 오전까지 환상 영향 출근길 다시 꽃샘추위</a><span>연합뉴스</span></li>
+						</ul>
+
+					</div>
+					<!--news warp-->
+				</div>
+			</div>
+			<div class="right">
+				<div class = "list">
+					<h2>언론사별 가장 많이본 뉴스</h2>
+					<ul>
+						<li>
+							<div>27억 집값이 45억 됐다"…강남·용산대형평형의 '반격 ...
+							<p>머니투데이</p>
+							</div>
+							<span><img src="click1.jpg" alt="1"></span>
+						</li>
+						<li><div>27억 집값이 45억 됐다"…강남·용산대형평형의 '반격 ...
+							<p>머니투데이</p>
+							</div>
+							<span><img src="click2.jpg" alt="1"></span></li>
+						<li><div>27억 집값이 45억 됐다"…강남·용산대형평형의 '반격 ...
+							<p>머니투데이</p>
+							</div>
+							<span><img src="click3.jpg" alt="1"></span></li>
+						<li><div>27억 집값이 45억 됐다"…강남·용산대형평형의 '반격 ...
+							<p>머니투데이</p>
+							</div>
+							<span><img src="click4.jpg" alt="1"></span></li>
+						<li><div>27억 집값이 45억 됐다"…강남·용산대형평형의 '반격 ...
+							<p>머니투데이</p>
+							</div>
+							<span><img src="click5.jpg" alt="1"></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 컨텐츠 종료 -->
+
+		<!-- 푸터 시작 -->
+		<div id="footer"></div>
+		<!-- 푸터 끝 -->
+    </div>
+  
+ </body>
+</html>

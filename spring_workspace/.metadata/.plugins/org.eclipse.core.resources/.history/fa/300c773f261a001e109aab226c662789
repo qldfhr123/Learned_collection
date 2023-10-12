@@ -1,0 +1,122 @@
+package com.care.cv;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+
+import org.springframework.ui.Model;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+
+
+
+@Controller
+/**
+ * spring 에 등록시킬수있다
+ * */
+public class MemberController {
+	/*
+	@RequestMapping(value="", method = RequestMethod.GET) //직접 작성해야한다
+	@GetMapping(value="index")//value만 작성하면된다 (value 생략가능)
+	*/
+	
+	@RequestMapping("index") //get, post 모두다 받아서 처리한다
+	public String index() {
+		
+		//return에 data를 담을수있다 리턴값과 jsp파일명이 같으면 생략가능
+		return "index";
+	}
+	@GetMapping("login")
+	public void login() {
+		System.out.println("@GetMapping(\"login\")매서드 실행");
+		
+		
+	}
+	@PostMapping("login")
+	public String login(String id, String pw, String name) {
+		System.out.println("아이디 : "+id);
+		System.out.println("비밀번호 : "+pw);
+		System.out.println("이름 : "+name);
+		
+		
+		return "index";
+	}
+	
+	@PostMapping("login")
+	public String loginPorc(String id, String pw, String name, Model model) {
+		System.out.println("아이디 : "+id);
+		System.out.println("비밀번호 : "+pw);
+		System.out.println("이름 : "+name);
+		
+		if("admin".equals(id) && "1234".equals(pw)) {
+			model.addAttribute("msg","로그인성공");
+			return "redirect:index";
+		}
+		else {
+			model.addAttribute("msg","로그인 실패");
+			return "login";
+		}
+		
+		return "index";
+	}
+	
+	@GetMapping("list")
+	public String list(Model model) { //인스턴스형이다
+		System.out.println("list()호출됨");
+		ArrayList<MemberDTO> members = new ArrayList<>();
+		MemberDTO member = new MemberDTO();
+		member.setName("admin");
+		member.setName("1234");
+		member.setName("관리자");
+		
+		members.add(member);
+		
+		member = new MemberDTO();
+		member.setName("user1");
+		member.setName("1111");
+		member.setName("유저1");
+		
+		members.add(member);
+		
+		model.addAttribute("members",members);
+		
+		
+		return "list";
+		
+	}
+
+	@GetMapping("register")
+	public void register() {
+		System.out.println("@GetMapping(\"register\")매서드 실행");
+	}
+	
+	@PostMapping("register") //원하는 url
+	public void register(MemberDTO member) { //참조값에 자동으로 넣어주기때문에
+		//@RequestParam변수의 이름과 요청하는 param값이 다르면 맞춰준다
+		System.out.println("아이디 : "+member.getId());
+		System.out.println("비밀번호 : "+member.getPw());
+		System.out.println("이름 : "+member.getName());
+		
+		 //db필요하면 매서드 호출해야한다
+		
+		/**
+		 * return : viewResolver를 거쳐 경로를 완성하고, 완선된 경로를 찾아가 jps 파일 실행
+		 * 
+		 * forwad :  서버가 직접 찾아가 호출한다
+		 * return "forward:~"; 요청1 응답1 (url과 서로 맞추지않는다 이름을)
+		 * redirect : 서버가 클라이언트에게 경로를 전달하고 클라이언트가 찾아가 호출함
+		 * redirect:~ 요청 응답 요청 응답 (url과 서로 맞출수있다 이름을)
+		 * 
+		 * HttpServletRequest req >> req.getParameter("~")
+		 * 요청할수있다
+		 * 
+		 * */
+	}
+	
+	
+
+}

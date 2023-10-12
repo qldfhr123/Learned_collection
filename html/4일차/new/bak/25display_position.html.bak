@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>display position</title>
+  <link rel="stylesheet" href="style1.css" type="text/css">
+ </head>
+ <body>
+
+    <div class="boxA">
+		<a href="#">menu1</a>
+		<a href="#">menu2</a>
+		<a href="#">menu3</a>
+		<a href="#">menu4</a>
+		<a href="#">menu5</a>
+		<a href="#">menu7</a>
+		<a href="#">menu8</a>
+    </div>
+
+	<div class="block_box">
+		<p>캬라멜 마끼아또<span>바닐라 라떼</span></p>
+		<p>자바칩 프라프치노<strong>그린 애플 카모마일 티</strong></p>
+	</div>
+
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+
+    <p class="h100"></p>
+
+	<div class="d"></div>
+	<div class="e"></div>
+	<div class="f"></div>
+	<div class="fix"></div>
+
+	<p class="h100"></p>
+
+	<div class="menu1">
+		<ul>
+			<li><a href="#">menu1-1</a></li>
+			<li><a href="#">menu1-2</a></li>
+			<li><a href="#">menu1-3</a></li>
+			<li><a href="#">menu1-4</a></li>
+		</ul>
+	</div>
+
+	<div class="menu2">
+		<ul>
+			<li><a href="#">menu2-1</a></li>
+			<li><a href="#">menu2-2</a></li>
+			<li><a href="#">menu2-3</a></li>
+			<li><a href="#">menu2-4</a></li>
+		</ul>
+	</div>
+
+	<p class="h100"></p>
+
+	<div class="pro_list">
+		<ul>
+			<li>
+				<span>BEST</span>
+				<img src="pro.jpg" alt="">
+			</li>
+			<li>
+				<span>BEST</span>
+				<img src="pro.jpg" alt="">
+			</li>
+			<li>
+				<span>BEST</span>
+				<img src="pro.jpg" alt="">
+			</li>
+		</ul>
+	</div>
+
+	<p class="h100"></p>
+
+	<div class="pagecut">
+		<ul>
+			<li><a href="#"><img src="btn_prev.png" alt="이전"></a></li>
+			<li><a href="#" class="selected">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+			<li><a href="#">7</a></li>
+			<li><a href="#"><img src="btn_next.png" alt="다음"></a></li>
+		</ul>
+	</div>
+
+	<div class="bgbox">
+		이미지를 가지고 배경 사용
+	</div>
+
+	<div class="bullet">
+		<ul>
+			<li><a href="#">menuA</a></li>
+			<li><a href="#">menuB</a></li>
+			<li><a href="#">menuC</a></li>
+			<li><a href="#">menuD</a></li>
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+ </body>
+</html>

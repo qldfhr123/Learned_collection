@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*공통*/
+.inner{width:760px; margin:0 auto; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.content{width:100%;}
+
+/*header*/
+body > header{position:relative; height:100px; background:#fff;}
+body > header h1{padding-left:2%;}
+body > header h1 img{width:240px;}/*원래 260px인데 축소*/
+
+header .mu{position:absolute; right:2%; top:35%; z-index:999999999;}
+header .mu a{display:block; width:30px; height:30px;}
+header .mu a span{display:block; background:#222; width:100%; height:2px; margin-bottom:7px;}
+
+/*visual*/
+.visual{margin-top:15px; margin-bottom:70px;}
+.visual .inner img{width:100%;}
+.visual .inner span{display:none;}
+
+/*mov*/
+.mov{margin-top:80px; margin-bottom:50px; background:#f5f5f5; padding:50px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-shadow:0 0 5px rgba(0,0,0,.3); border-top-left-radius:60px; -webkit-border-top-left-radius:60px; -moz-border-top-left-radius:60px; border-bottom-right-radius:60px; -webkit-border-bottom-right-radius:60px; -moz-border-bottom-right-radius:60px;}
+.mov h2{position:relative; font-size:21px; font-weight:400; color:#222; text-align:center; margin-bottom:70px;}
+.mov h2:after{position:absolute; bottom:-50px; left:50%; content:""; width:1px; height:30px; background:#222;}
+.mov h2 br{display:none;}
+
+.mov .inner_mov{position:relative; width:100%; padding-bottom:56.25%;}
+/*padding-bottom:56.25%;는 유튜브 영상 자체 여백*/
+.mov .inner_mov iframe,
+.mov .inner_mov embed,
+.mov .inner_mov object{position:absolute; width:100%; height:100%; border-top-left-radius:40px; border-bottom-right-radius:40px;}
+/*iframe, embed, object 동영상 스트리밍 태그*/
+
+/*sns*/
+.sns{position:relative; background:#ffda4b; margin-top:80px; padding:60px 60px 30px 60px;}
+.sns > p{font-size:41px; color:#7c4e28; font-family:'GmarketSansMedium'; letter-spacing:-3px; text-align:center; margin-top:30px; padding-right:150px;}
+.sns > span{position:absolute; right:120px; bottom:30px;}
+
+.sns ul{overflow:hidden; background:#fff; padding:50px;}
+.sns ul li{float:left; width:calc(100% / 3 - 30px); margin:15px;}
+.sns ul li a{display:block; width:100%; height:100%; overflow:hidden; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; box-shadow:5px 5px 10px rgba(0,0,0,.2);}
+.sns ul li a img{width:100%;}

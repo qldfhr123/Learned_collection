@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*공통*/
+@media screen and (max-width:768px){
+   .inner{width:95%;}
+}
+
+/*header*/
+@media screen and (max-width:480px){
+    body > header h1{position:relative; top:10px;}
+	body > header h1 img{width:160px;}
+}
+@media screen and (max-width:320px){
+    body > header{height:65px;}
+	body > header h1{top:7px;}
+	body > header h1 img{width:130px;}
+}
+
+/*visual*/
+@media screen and (max-width:430px){
+    .visual .inner > img{display:none;}
+    .visual .inner span{display:block;}
+}
+
+/*mov*/
+@media screen and (max-width:480px){
+    .mov{padding:30px;}
+}
+@media screen and (max-width:385px){
+    .mov{padding:20px 10px 10px 10px;}
+	.mov h2{line-height:135%;}
+	.mov h2 br{display:block;}
+}
+
+/*sns*/
+@media screen and (max-width:680px){
+    .sns > p{font-size:37px;}
+	.sns > span img{width:90px;}
+}

@@ -1,0 +1,94 @@
+package com.care.dbQuiz.member;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Map;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Service
+public class KakaoService {
+	
+	private String accessToken;
+	public void getAccessToken(String code) {
+		String reqUrl = "https://kauth.kakao.com/oauth/token";
+		String reqParam = "grant_type=authorization_code";
+		reqParam += "&client_id=231dcfa0f6c9f5d6db11c3d33c9b755c";
+		reqParam += "&redirect_uri=http://localhost:8065/dbQuiz/kakaoLogin";
+		reqParam += "&code="+code;
+		
+		HttpURLConnection conn;
+		try {
+			URL url = new URL(reqUrl); //POST 요청에 필요로 요구하는 파라미터 스트림을 통해 전송
+			conn = (HttpURLConnection)url.openConnection();
+			conn.setRequestMethod("POST"); //POST 요청을위해 기본값 false에서 setDoOut으로 true변경
+			conn.setDoOutput(true);//post 매소드를 이용해서 데이터를 전달하기위한설정
+			
+			//기본 OutputStram을 통해 문자열로 처리할수있는 OutputStreamWriter변환후 처리속도를 빠르게 처리하기위해
+			//BufferedWriter변환한다
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream()));
+			bw.write(reqParam);
+			bw.flush();
+			
+			int responseCode = conn.getResponseCode(); //결과 코드가 200이면 성공
+			System.out.println("responseCode:"+responseCode);
+			
+			// 요청을 통해 얻은 JSON타입의 Response 메세지 읽어오기 (반복문)
+//			BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+//			String line ="", result="";
+//			while((line = br.readLine()) != null){
+//				result += line;
+//			}
+			
+			// 요청을 통해 얻은 JSON타입의 Response 메세지 읽어오기
+			InputStreamReader isr = new InputStreamReader(conn.getInputStream());
+			ObjectMapper om = new ObjectMapper();
+			Map<String, String> map = null;
+			map = om.readValue(isr, new TypeReference<Map<String, String>>() {} );
+			accessToken = map.get("access_token");
+			System.out.println("access_token : "+map.get("access_token"));
+			System.out.println("scope : "+map.get("scope"));
+			
+			
+		} catch (IOException e) {
+		
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void getUserInfo() {
+		String reqUrl = "https://kapi.kakao.com/v2/user/me";
+		HttpURLConnection conn;
+		
+		try {
+			URL url = new URL(reqUrl);
+			conn = (HttpURLConnection)url.openConnection();
+			conn.setRequestMethod("POST"); 
+			
+			conn.setRequestProperty("Authorization","Bearer"+accessToken);
+			
+			ObjectMapper om = new ObjectMapper();
+			JsonNode jsonTree = om.readTree(conn.getInputStream());
+			
+			System.out.println("jsonTree : "+jsonTree);
+			System.out.println("kakao_account : "+jsonTree.get("profile"));
+			System.out.println("nickname : "+jsoonTree.get("NickName"));
+		}catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+//curl -v -X POST "https://kauth.kakao.com/oauth/token" \
+//-H "Content-Type: application/x-www-form-urlencoded" \
+//-d "grant_type=authorization_code" \
+//-d "client_id=${REST_API_KEY}" \
+//--data-urlencode "redirect_uri=${REDIRECT_URI}" \
+//-d "code=${AUTHORIZE_CODE}"

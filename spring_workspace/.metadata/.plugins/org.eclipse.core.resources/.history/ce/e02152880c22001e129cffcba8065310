@@ -1,0 +1,14 @@
+package com.care.ajaxBasic;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AjaxMapper {
+
+	String exists(String id);
+
+	String jsonInsert(String result);
+
+}

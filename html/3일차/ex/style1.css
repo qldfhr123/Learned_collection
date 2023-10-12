@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*레이아웃*/
+.fun{width:360px; margin:0 auto;}
+/*float 하고 상위데이터 위치에 overflow hidden*/
+.fun ul li{overflow:hidden; }
+.fun ul li  > p {float:left; width:40%; }
+.fun ul li  > div {float:left; width:60%; padding-top:20px;}
+.fun ul li > div > p{font-size:12px; color:#222; font weight:500px;}
+.fun ul li > div > p+p{font-size:12px; color:#666; font weight:300px;}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+html,body{font-size:16px; color:#2f2c28; font-weight:300;}
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,p,ul,ol,li{font-family:'Noto Sans KR'; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+#warp {width:100%;}
+
+.content {width:1200px;margin:80px auto;}
+
+
+.faq h2{font-size:41px; color:#000; font-weight:500; text-align:center; margin-bottom:50px}
+.faq .inner {overflow:hidden;}
+.fap .inner .quick{float:left; width:55%;}
+.fap .inner.top  {float:right; width:40%;}
+
+.puick ul {overflow:hidden;}
+.puick ul li{float:left; width:20%;  text-align:center; margin-bottom:100px;} /*개당 비율 지정*/
+.puick ul li span{display:block; height:85px;} /*span으로 따로 지정*/
+
+
+.top h3{position: relative; font-size:21px; border-bottom:2px solid #000; padding-bottom:15px;}/*라인일때 padding*/
+.top h3 a{position:absolute; right:0; top:-7px; font-size:30px; color:#666; font-weight:100;}
+.top ul li{padding:15px;  font-size:17px; border-bottom:1px solid #666;}
+
+
+.btn ul{font-size:0; text-align:center;}
+.btn ul li{display:inline-block; font-size:19px; font-weight:400;margin: 0 10px;}
+.btn ul li a { display:inline-block; width:200px; height:60px; line-height:60px; background:#000099; color:#fff;}

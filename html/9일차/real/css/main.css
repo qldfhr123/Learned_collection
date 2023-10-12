@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*공통*/
+.inner{width:760px; margin:0 auto; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.content{width:100%;}
+
+/*header*/
+body > header{position:relative; height:100px; background:#fff;}
+body > header h1{padding-left:2%;}
+body > header h1 img{width:240px;}/*원래 260px인데 축소*/
+
+header .mu{position:absolute; right:2%; top:35%; z-index:999999999;}
+header .mu a{display:block; width:30px; height:30px;}
+header .mu a span{display:block; background:#222; width:100%; height:2px; margin-bottom:7px;}
+
+/*visual*/
+.visual{margin-top:15px; margin-bottom:70px;}
+.visual .inner img{width:100%;}
+
+
+/*mov*/
+.mov{margin-top:80px; margin-bottom:50px; background:#f5f5f5; padding:50px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-shadow:0 0 5px rgba(0,0,0,.3); border-top-left-radius:60px; -webkit-border-top-left-radius:60px; -moz-border-top-left-radius:60px; border-bottom-right-radius:60px; -webkit-border-bottom-right-radius:60px; -moz-border-bottom-right-radius:60px;}
+.mov h2{position:relative; font-size:21px; font-weight:400; color:#222; text-align:center; margin-bottom:70px;}
+.mov h2:after{position:absolute; bottom:-50px; left:50%; content:""; width:1px; height:30px; background:#222;}
+.mov h2 br{display:none;}
+
+.mov .inner_mov{position:relative; width:100%; padding-bottom:56.25%;}
+/*padding-bottom:56.25%;는 유튜브 영상 자체 여백*/
+.mov .inner_mov iframe,
+.mov .inner_mov embed,
+.mov .inner_mov object{position:absolute; width:100%; height:100%; border-top-left-radius:40px; border-bottom-right-radius:40px;}
+/*iframe, embed, object 동영상 스트리밍 태그*/
+
+/*sns*/
+.sns{position:relative; background:#ffda4b; margin-top:80px; padding:60px 60px 30px 60px;}
+.sns > p{font-size:41px; color:#7c4e28; font-family:'GmarketSansMedium'; letter-spacing:-3px; text-align:center; margin-top:30px; padding-right:150px;}
+.sns > span{position:absolute; right:120px; bottom:30px;}
+
+.sns ul{overflow:hidden; background:#fff; padding:50px;}
+.sns ul li{float:left; width:calc(100% / 3 - 30px); margin:15px;}
+.sns ul li a{display:block; width:100%; height:100%; overflow:hidden; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; box-shadow:5px 5px 10px rgba(0,0,0,.2);}
+.sns ul li a img{width:100%;}
+
+/*banner*/
+.banner{margin-top:80px;}
+.banner a img{width:100%;}
+
+/*sch*/
+.sch{display:flex; align-items:center; justify-content:center; text-align:center; background:url(../image/main/sch_bg.jpg) no-repeat center center; height:350px;}
+/*align-items:center; 플렉스 요소의 수직 방향 정렬 방식 설정*/
+/*justify-content:center; 플렉스 요소의 수평 방향 정렬 방식 설정*/
+.sch .inner_sch{padding:0 40px; color:#3d3d3d; width:100%; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.sch .inner_sch h2{font-size:37px; margin-bottom:20px;}
+.sch .inner_sch p{font-size:18px; line-height:135%; margin-bottom:20px;}
+
+.sch .inner_sch > div form{font-size:0; overflow:hidden; border-top-left-radius:15px; border-top-right-radius:15px; border-bottom-left-radius:15px; border-bottom-right-radius:15px;}
+.sch .inner_sch > div input,
+.sch .inner_sch > div button{display:inline-block; height:65px;}
+.sch .inner_sch > div input{font-size:16px; width:80%;}
+.sch .inner_sch > div button{position:relative; width:20%; border:0; background:#222;}
+.sch .inner_sch > div button:after{position:absolute; content:""; width:48px; height:48px; background:url(../image/btn_sch.png) no-repeat; background-size:48px; left:50%; top:50%; margin-left:-24px; margin-top:-24px;}
+
+/*etc*/
+.etc{overflow:hidden;}
+.etc .box{float:left; width:50%; height:300px; display:flex; align-items:center; justify-content:center;}
+
+.etc .box:nth-child(1){background:#ffda4b;}
+.etc .box:nth-child(2){background:url(../image/main/bg_brand.jpg) no-repeat center center; background-size:cover;}
+/*background-size:cover; 확대할 경우 이미지가 찌그러지지 않는 한도 내에서 제일 크게 설정, 이미지의 가로/세로 비율이 요소와 다르다면 이미지를 세로 or 가로방향으로 잘라내어 빈 공간이 생기지 않도록 설정*/
+
+.etc .box .tel{text-align:center;}
+.etc .box .tel a{display:block; width:100%; height:100%;}
+.etc .box .tel a span{position:relative; display:block; width:70px; height:70px; background:#ff6600; border-radius:70px; margin:0 auto 20px;}
+.etc .box .tel a span:after{position:absolute; content:""; background:url(../image/icon_tel.png) no-repeat; width:22px; height:36px; background-size:22px; top:50%; left:50%; margin-top:-18px; margin-left:-11px;}
+.etc .box .tel a p{font-size:41px; font-family:'GmarketSansBold'; color:#000; letter-spacing:-1px;}
+
+.etc .box .about{text-align:center;}
+.etc .box .about h2{font-size:27px; font-weight:600; line-height:135%; margin-bottom:20px;}
+.etc .box .about h2 p{font-size:19px; font-weight:400; color:#333;}
+.etc .box .about a{display:inline-block; width:80%; height:45px; font-size:19px; font-weight:400; color:#fff; line-height:45px; background:#ff6600; border-radius:100px; font-family:'Spoqa Han Sans';} 
+
+/*footer*/
+footer{margin-top:20px !important; background:#2c3041; text-align:center; padding:30px 20px !important;}
+/*CSS의 같은 속성을 여러 번 정의했을 때, 나중에 설정한 값이 적용됨. 만약 나중에 설정한 값이 적용되지 않게 하려면 속성값 뒤에 !important를 붙임*/
+
+footer ul{font-size:0; text-align:center; margin-bottom:15px; border-bottom:1px solid #595a5d; padding-bottom:15px;}
+footer ul li{display:inline-block; font-size:15px;}
+footer ul li a{display:block; color:#ccc; padding:0 5px; font-family:'SpoqaHanSans';}
+
+footer > div p{color:#858a9e; font-size:14px; line-height:135%; font-family:'SpoqaHanSans';}
+footer > div p + p{margin-top:15px;}
+footer > div p img{width:200px; }

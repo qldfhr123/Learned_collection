@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+    <script language="JavaScript">
+	function line(){
+		for(i=1; i <= 50; i++){
+			document.write("*");
+		}
+		document.write("<br>");
+	}
+  </script>
+ </head>
+ <body>
+
+ </body>
+</html>

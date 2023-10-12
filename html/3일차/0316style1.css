@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*list*/
+/*ul.ex li:frist-child{color:red;}
+ul.ex li:last-child{color:blue;}
+ul.ex li:nth-child{color:pink;}
+ul.ex li:nth-child(3n){color:skyblue;}
+ul.ex li:nth-child(odd){color:yellow;}
+ul.ex li:nth-child(even){color:skyblue;}*/
+/*
+frist-child 첫번째
+last-child 마지막
+nth-child() n번째
+nth-child(2n)2배수
+nth-child(odd)홀수
+nth-child(even)짝수
+*/
+
+.warp{width:750px; margin:0 auto; padding-top: 80px;}
+.warp .left,
+.warp .right {float: left; height: 800px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+.warp .left{ width: 60%; background:;}
+.warp .right{width: 40%;  background: ; padding-left:30px;}
+
+
+.warp .left .bord{font-weight:900px;}
+
+.warp .left .blue{float :left; width:100%; color:#0099ff; font-size: 12px; margin-top:10px; margin-bottom:25px;}
+
+.warp.left.s{font-size: 100px;  margin-bottom:10px;}
+
+
+.warp .left .text,
+.warp .left .blue2{ float :left; color:#0099ff; font-size: 15px; margin-left: 10px; margin-top:5px;  box-sizing:border-box; -webkit-box-sizing:border-box; }
+
+.warp .left .text{float :left; font-size: 15px; color: #000000; margin-top:5px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+

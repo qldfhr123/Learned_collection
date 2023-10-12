@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script language="JavaScript">
+  	aanimal = new Array(5);
+	aanimal[0] = "ㅇ0"
+	aanimal[1] = "ㅇ1"
+	aanimal[2] = "ㅇ2"
+	aanimal[3] = "ㅇ3"
+	aanimal[4] = "ㅇ4"
+	
+	document.write("첫번째 요소는", aanimal[0], "이다");
+
+	for(i = 0; i < 5; i++){
+		document.write("<br>");
+		document.write("첫번째 요소는" ,aanimal[i], "이다");
+	}
+
+	banimal = new Array ("닭", "개", "소", "고양이", "말", "오리", "돼지");
+	document.wrtie("첫번째요소는 ", banimal[i], "이다");
+
+	tool = new Array ("1,","2,","3,","4,")
+	//concat() 새로운배열을 만들어서 합침
+	c = banimal.concat(tools);
+	for(i=0; i < c.length; i++){
+		document.write("<br>");
+		document.write(i, "요소는", c[i], "dlek")
+	}
+		
+	document.write("<br>");
+	document.write(c)
+	document.write("<br>");
+	document.write(c.join("/"))
+  </script>
+ </body>
+</html>

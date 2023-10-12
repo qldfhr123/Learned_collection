@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+#wrap{width:100%; margin: 0 auto;}
+.inner {width:1179px; margin: 0 auto;}
+.header {margin-top: 25px; position:relative; overflow:hidden;}
+.header .banner{float:left;}
+.header .srh > div {border:2px solid #692b90; width:382px; height:40px; line-height:38px; position:absolute;top:5px; left:465px; border-radius:30px;}
+.header .srh > div a img{position:absolute;top:7px; left:340px; }
+
+.header .srh > a{position:absolute;top:0; left:265px;}
+
+.header .login{float:right;}
+.header .login ul {font-size:0;}
+.header .login > ul li{font-size:12px;  display:inline-block;}
+.header .login > ul li:nth-child(2){padding:0 15px;}
+.header .login > ul li a p{text-align:center;}
+
+
+ /********************************************header**********************************************/
+
+.content {margin-top:60px; width:500px; margin: 0 auto; height: 880px;}
+
+.content .log_header div{margin-top:57px; margin-bottom:30px; font-size:25px;letter-spacing:-1px; font-weight:400; position:relative;} 
+.content .log_header span img{ display:inline-block; width:150px;vertical-align:middle;margin-right: -15px;}
+
+.content .idpass .id {position:relative; margin-bottom: 8px;padding-left: 60px;border-bottom: 1px solid #666;}
+.content .idpass .pass {position:relative; margin-bottom: 8px;padding-left: 60px;border-bottom: 1px solid #666;}
+.content .idpass .id label {position:absolute;top: 11px;left: 0;font-size: 14px;line-height: 19px; color: #111; font-weight:400;}
+.content .idpass .pass label {position:absolute;top: 11px;left: 0;font-size: 14px;line-height: 19px; color: #111; font-weight:400;}
+.content .check{margin: 16px 0 24px;}
+
+.content .btn{font-size: 20px;height: 50px;line-height:50px;background-color: #640faf;border-color: #640faf;text-align: center; width: 100%; border-radius: 4px;}
+.content .btn a {color: #fff;width: 100%;}
+
+.content .resi {margin-top: 24px; text-align: center;}
+.content .resi ul	{font-size:0}
+.content .resi ul li{display:inline-block; font-size:12px;}
+.content .resi ul li:nth-child(2) a {height: 1px;border-left:1px solid #ddd; border-right:1px solid #ddd;padding: 0 15px;}
+.content .resi ul li:nth-child(2){padding: 0 10px;}
+.content .sns {margin-top:50px;  border-bottom:1px solid #ddd;}
+.content .sns h3{font-size:15px;}
+.content .sns .ka {font-size: 17px;height: 50px;line-height:50px;background-color: #fee500;border-color: #fee500;text-align: center; width: 100%; border-radius: 4px;font-weight:400;margin-top:6px;}
+.content .sns .ka a img {vertical-align:middle;padding-right:5px;}
+.content .sns .naver {font-size: 17px;height: 50px;line-height:50px;background-color: #03c75a;border-color: #03c75a;text-align: center; width: 100%; border-radius: 4px;font-weight:400;margin-top:6px;margin-bottom:25px;}
+.content .sns .naver a {color:#fff;}
+.content .sns .naver a img {vertical-align:middle;padding-right:5px;}
+.content .etc {font-size: 17px;height: 50px;line-height:50px;background-color: #fff;border:1px solid  #ddd;text-align: center; width: 100%; border-radius: 4px;font-weight:400;margin-top:6px; color:#000;margin-top:25px;}
+
+/***************************************content**************************************************/
+
+.footer {width:100%; background:#f6f6f6;margin:0 auto;}
+.footer ul li {width:23%;display:inline-block;box-sizing:border-box;text-align:center;height:55px;line-height:55px;}
+.footer ul li:last-child{background:url(../image/arrow_up.jpg)no-repeat;  background-position:220px 25px;}
+
+.footer_info{width:100%; border-bottom:1px solid #ddd; font-size:15px;}
+.footer_info .intro {height:50px; line-height:50px; }
+
+.footer_bottom {padding-top:30px; padding-bottom:350px;}
+.footer_bottom .left{float:left; width:15%;}
+.footer_bottom .right{float:right; width:75%;}
+.footer_bottom .right  p {font-size:12px; line-height: 20px;}
+.footer_bottom .right div {padding:10px 0 ;}
+.footer_bottom .right div a {font-weight:400; padding-right:10px; font-size:13px; }
+.footer_bottom .right div a:hover{text-decoration:underline;}
+.footer_bottom .right .last {font-size:12px; padding-bottom:20px;}
+.footer_bottom .right ul li{display:inline-block; padding-right:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

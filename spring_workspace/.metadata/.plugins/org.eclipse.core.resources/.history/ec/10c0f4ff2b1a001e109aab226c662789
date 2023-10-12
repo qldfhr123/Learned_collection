@@ -1,0 +1,25 @@
+package com.care.cs.cookie;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class CookieController {
+	
+	@GetMapping("cookie/index")
+	public String index(HttpServletResponse res) {
+		Cookie cookie = new Cookie("cookieName","cookieValue");
+		res.addCookie(cookie);
+		return "cookie/index";
+	}
+	@GetMapping("result")
+	public String result() {
+		
+		return "result";
+	}
+
+}

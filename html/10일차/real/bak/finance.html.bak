@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+
+    <div id="wrap">
+	    <!-- header -->
+		<div class="header">
+		    <!-- top -->
+			<div class="top">
+				<div class="inner">
+					<h1><a href="../../index.html"><img src="../../image/logo.jpg" alt="행복한 원덕"></a></h1>
+					<ul>
+						<li><a href="../../index.html"">HOME</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">로그인</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+					<div class="search">
+						<a href="#"><span class="material-symbols-outlined">search</span></a>
+					</div>
+				</div>
+			</div>
+			<!-- //top -->
+			<!-- gnb -->
+			<div class="gnb inner">
+				<ul>
+					<li><a href="../about/ceo.html">행복한 원덕은?</a></li>
+					<li><a href="#" class = "selected">사업분야</a></li>
+					<li><a href="#">대표상품</a></li>
+					<li><a href="#">사회서비스</a></li>
+					<li><a href="#">커뮤니티</a></li>
+				</ul>
+			</div>
+			<!-- //gnb -->
+		</div>
+		<!-- //header -->
+
+		<!-- sub_visual -->
+		<div class="sub_visual bg2">
+				<div class = "inner">
+				<div>
+					<h2>행복한 원덕은?</h2>
+					<p>행복한미래를 준비하는 기업, 아름다운 세상을 만드는 기업입니다.</p>
+				</div>
+			</div>
+		</div>
+		<!-- //sub_visual -->
+
+		<!-- sub_content -->
+		<div class="sub_content">
+			<!--menu-->
+			<div class =  "sub_menu">
+				<h2>사업분야</h2>
+				<ul>
+					<li><a href = "#" class = "active">재정지원</a></li>
+					<li><a href = "#">창업지원</a></li>
+					<li><a href = "#">성장지원</a></li>
+					<li><a href = "#">생태계 조성</a></li>
+				</ul>
+			</div>
+			<!--menu-->
+
+			<!--container-->
+			<div class =  "container">
+				<h2>사업분야</h2>
+				<div class = "location">
+					<a href = "#">HOME</a>&nbsp; &gt; &nbsp;사업분야 &nbsp;&gt;&nbsp; 재정지원
+				</div>
+				<!--inner_container-->
+				<div class ="business_fnc">
+					<h3>사회적 기업일자리 창출사업</h3>
+					<div class = "inner_box">
+					사회적 가치를 실현하는 (예비)사회적기업이 신규 일자리를 창출할 수 있도록 인건비 등을 지원합니다.<br>* 자치단체별로 참여기업 모집 · 선정
+					</div>
+					<table>
+						<colgroup>
+							<col width= "28%"></col>
+							<col width= "17%"></col>
+							<col width= "20%"></col>
+							<col width= "15%"></col>
+							<col width= "20%"></col>
+						</colgroup>
+						<thead>
+							<tr>
+								<th>사업 범위</th>
+								<th>의결권 및 선거권</th>
+								<th>책임범위</th>
+								<th>가입*탈퇴</th>
+								<th>배당</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>공동의 목적을 가진 5인 이상이 모여 조직한 사업체로서 그 사업의 종류에 제한이 없음(금융 및 보험업 제외)</td>
+									<td>출자규모와 무관하게 1인 1표제</td>
+									<td>조합원은 출자자산에 한정한 유한책임</td>
+									<td>자유로운 가입과 탈퇴</td>
+									<td>전체 배당액의 100분의 50이상을 협동조합 사업 이용 실적에 따라 배당</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<div class = "innovate">
+						<div>
+							<h3>We innovate</h3>
+							<h4>Change and innovation</h4>
+							<p>In favor of representing the global contents, TongRo Images. has been such a successful case of heading toward to the world market beyond.TongRo Images Inc. is a content company who is specializing in digital images and distributing those through internet. We are systematically organized with production, technology, sales and administration departments. Any inquires about a contribution of your content are welcome to us.</p>
+						</div>
+					</div>
+					<ul>
+						<li><img src="../../image/business/globalBusiness.png"><p><b>Global<br>business</b></p>h2><p>Asian Asian representative <br>image production, <br>TongRo Images!</p></li>
+						<li><img src="../../image/business/valueCreator.png"><p><b>Value<br>creator</b></p><p>
+							Asian representative <br>image production, <br>TongRo Images! </p></li>
+						<li><img src="../../image/business/growTogether.png"><p><b>Grow<br>together</b></p><p>
+							Asian representative <br>image production, <br>TongRo Images!</p></li>
+					</ul>
+				</div>
+				<!--inner_container-->
+			</div>
+			<!--container-->
+		</div>
+		<!-- //sub_content -->
+
+		<!-- footer -->
+		<div class="footer">
+			<div class="sns">
+				<div class="inner">
+					<h3>033-650-3320</h3>
+					<p><a href="#"><img src="../../image/footer_img.png" alt="강원도 사회적기업"></a></p>
+					<div>
+						<h4>행복한 원덕 <b>SNS</b></h4>
+						<ul>
+							<li>
+							    <a href="#"><img src="../../image/facebook.png" alt="페이스북"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="../../image/instagram.png" alt="인스타그램"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="../../image/blog.png" alt="블로그"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="../../image/youtube.png" alt="유투브"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="info inner">
+				<ul>
+					<li>
+						<b>상호</b> (주)행복한원덕 사회적기업인증&nbsp;&nbsp;&nbsp;
+						<b>대표자명</b> 김경식
+					</li>
+					<li>
+						<b>주소</b> 강원도 삼척시 원덕읍 옥원노곡1길 15-52&nbsp;&nbsp;&nbsp;
+						<b>전화</b> 033-575-9959
+					</li>
+					<li>
+						<b>사업자번호</b> 429-86-01072&nbsp;&nbsp;&nbsp;
+						<b>통신판매신고번호</b> 제2019-강원강릉-0041호
+					</li>
+					<li>
+						<b>메일</b> happywondeok@naver.com&nbsp;&nbsp;&nbsp;
+					</li>
+				</ul>
+			</div>
+			<div class="copy">
+				<div class="inner">copyright (c) happywondeok inc. all rights reserved.</div>
+			</div>
+		</div>
+		<!-- //footer -->
+    </div>
+
+  
+ </body>
+</html>

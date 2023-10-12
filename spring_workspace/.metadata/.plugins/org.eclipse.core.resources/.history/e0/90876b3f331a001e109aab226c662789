@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>popup</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		function openPop(){
+		 	var popup = window.open(' http://localhost:8086/cs/popup.ㅓ네', '네이버팝업', 'width=700px,height=800px,scrollbars=yes');
+ 		}
+	</script>
+</body>
+</html>

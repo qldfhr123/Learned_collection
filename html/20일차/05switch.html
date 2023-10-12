@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script language="JavaScript">
+  /*
+  	여러개의 조건이있을때 실행할 코드 결정
+	평가식과레이블을 서로 비교하며 일치하면 실행, 일치하지않으면 다음 case넘어감
+	switch(평가식){	//평가식에는 변수 상수 비교연ㄴ산자 등 다용한 데이터 가능
+		case레이블1 : {수행문} // case뒤에는 상수값만 들어갈수있음
+	}
+  */
+	day = "수"
+	switch(day){
+		case:"월" : {
+			document.write("ㅇㅈㅎ6");
+		}
+		case:"화" : {
+			document.write("ㅇㅈㅎ5");
+		}
+		case:"수" : {
+			document.write("ㅇㅈㅎ4");
+		}
+		case:"목" : {
+			document.write("ㅇㅈㅎ3");
+		}
+		default : { // switch 하나당 1개만 사용가능 모든 case의 상수값중에 일지하지않는게 있다면
+			document.write("ㅇㅈㅎ1");
+		}
+
+	}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex4</title>
+</head>
+<body>
+
+	<%
+		String data1 = "자바 변수의 데이터";
+		pageContext.setAttribute("data2", data1);
+	%>
+
+</body>
+</html>

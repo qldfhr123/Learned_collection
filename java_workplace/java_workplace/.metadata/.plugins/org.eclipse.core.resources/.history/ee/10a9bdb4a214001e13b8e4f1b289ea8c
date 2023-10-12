@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+	
+	
+	<%
+		pageContext.setAttribute("data", "pageContext");
+		request.setAttribute("data", "request");
+		session.setAttribute("data", "session")
+	
+	%>
+	
+	범위 지정 없음 : ${data}<br>

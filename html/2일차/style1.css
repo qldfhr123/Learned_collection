@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,tr,th,td{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+
+/*div 레이어 (레이아웃 = 박스 생성)
+div=h1~h6=ul=ol=dl 전부 레이아웃 = 박스 생성 (table 박스/표)
+*/
+/*
+margin.padding:0 0 0 0; 상우하좌
+margin-left
+margin-boottom
+margin-right
+margin-top
+
+*/
+.boxA{width:300px; margin:50px; padding: 50px; background:#0033cc;border:2px solid  purple; box-sizing:border-box;}
+
+/*
+border. 2px등 별도 추가되더라도 width 300px 안게서 넓이를 더 늘리지 않고 다 포함하는 기능
+box-sizing:border-box;
+-wbkit -box-sizing:border-box; 테블릿 pc 적용(공통 스타일로 적용하면 디자인 다 틀어짐)
+-o-box-sizing::border-box;오페라 적용(현재 불필요)
+-m-box-sizing::border-box;모질라 적용(현재 불필요) 
+*/
+
+.box1{width:200px; height:150px; background:yellow; float:left;}
+.box2{width:200px; height:150px; background:skyblue; float:right;}
+
+/*float: left 왼쪽 정렬
+			right 오른쪽 정렬*/
+
+/*table*/
+
+.table_wrap{margin:50px auto; width:750px;}
+.table_wrap td{vertical-align:top;}
+/*수평정렬
+	text-align:left
+	text-align:rigjt
+	text-align:center
+   수직정렬
+   	vertical-align:top
+	vertical-align:bottom
+	vertical-align:center
+	*/
+
+	.table_wrap td .movie{width:97%;}
+	.table_wrap td .movie a p{font-size:13px; line-height:145%; color:#333; margin:10px; 0;}
+	.table_wrap td .movie a p span{color:#ff66cc; font-size:12px}
+	.table_wrap td .movie a p b{font-weight:normal; font-size:12px; color:#666; padding:10px 0 70px 0;}
+	/*커서 올리면 밑줄*/
+	.table_wrap td .movie a:hover p strong{text-decoration:underline;}
+	.table_wrap td .movie2 a:hover p strong{text-decoration:underline;}
+
+	.table_wrap td .movie2{width:97%;}
+	.table_wrap td .movie2 td img{width:98px;}
+	.table_wrap td  p.title{font-size:11px; color:#ff66cc;padding: 5px 40px 7px 0;}
+	
+	.table_wrap td p.con_text0{font-size:13px; color:#222; letter-spacing: -0.5px; line-height:120%; padding: 0px 100px 7px 0px;} /*spacing 글자간*/	
+	.table_wrap td p.con_text1{font-size:13px; color:#222; letter-spacing: -0.5px; line-height:120%; padding: 0px 90px 7px 0px;} /*spacing 글자간*/	
+	.table_wrap td p.con_text2{font-size:13px; color:#222; letter-spacing: -0.5px; line-height:120%; padding: 0px 60px 7px 0px;} /*spacing 글자간*/	
+	.table_wrap td p.marker{font-size:12px; color:#555;}

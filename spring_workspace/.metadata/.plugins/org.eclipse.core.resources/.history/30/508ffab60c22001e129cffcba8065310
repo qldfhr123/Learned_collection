@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex5</title>
+<script>
+	var xhr;
+	function send(){
+		xhr = new XMLHttpRequest();
+		xhr.open('post', 'ex6')
+		xhr.send();
+		xhr.onreadystatechange = resProc;
+	}
+	
+	function resProc(){
+		if(xhr.readyState === 4 && xhr.status === 200){
+			var resData = JSON.parse(xhr.responseText)
+	}
+</script>
+</head>
+<body>
+	<button type="button" onclick="send()">실행</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

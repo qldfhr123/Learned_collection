@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script language="JavaScript">
+  	hak=promt("월을 입력하세요" , "3") //초기값
+	function sum(){
+		result = 0
+		// do while 조건 조건이 거짓으로 평가될때지 지정된 구문을 실행 단, 구믄이 실행된 뒤에 테스트 조건 이 평가되므로 구문 무조건 한번은 실행
+		do{
+			inputvalue = prompt("숫자를 입력하세요 0을 입력하면끝", "0");
+			//isNan(테스트 되는 값) 매개변수가 숫자인지 검사하는 함수
+			if(isNan(inputvalue) == true){ // 피연산자들이 같으면 참을 반환
+				alert("숫자가 아닙니다", "숫자를입력하세요")
+			}else{ //0을 입력하지 않으면
+				//eavl 프롬프트로 받은값을 숫자로 처리, 문자열을 코드로 인식하게 하는 함수
+				result +=eval(inputvalue)
+			}
+		}
+		while(inputvalue != 0)
+		document.write("입력받은 총합계는 ", result, "입니다")
+	}
+  </script>
+ </head>
+ <body>
+  <script language="JavaScript">
+  	sum();
+  </script>
+ </body>
+</html>

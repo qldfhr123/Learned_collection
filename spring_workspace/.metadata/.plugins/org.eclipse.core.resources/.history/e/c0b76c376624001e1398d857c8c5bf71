@@ -1,0 +1,24 @@
+package com.care.dbQuiz.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+
+@Configuration
+public class MailConfig {
+	@Bean
+	public JavaMailSender mailSender() {
+		JavaMailSenderImpl jms = new JavaMailSenderImpl();
+		jms.setHost("");
+		jms.setHost();
+		jms.setUsername(username);//인증번호를 클라이언트에게 보낼 이메일 주소
+		jms.setPassword( ); //앱 비번
+		
+		
+		
+		return jsm;
+		
+	}
+
+}

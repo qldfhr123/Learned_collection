@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+	
+	
+	<%
+		pageContext.setAttribute(arg0, arg1);
+	
+	%>
+	
+	범위 지정 없음 : ${data}<br>

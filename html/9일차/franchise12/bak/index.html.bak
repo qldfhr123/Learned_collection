@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+ </head>
+ <body>
+ 
+    <!-- header -->
+    <header>
+		<h1><a href="#"><img src="image/logo.jpg" alt="티바두마리치킨"></a></h1>
+		<div class="mu">
+			<a href="#"><span></span><span></span><span></span></a>
+		</div>
+    </header>
+	<!-- header -->
+
+	<div class="visual">
+		<div class="inner">
+			<img src="image/main/visual_img1.jpg" alt="">
+			<span><img src="image/main/visual_img1_m.jpg" alt=""></span>
+		</div>
+	</div>
+
+	<!-- content -->
+	<div class="content">
+	    <!-- product -->
+		<!-- //product -->
+		<!-- mov -->
+		<div class="mov inner">
+			<h2>임영웅과 함께하는<br>티바두마리</h2>
+			<div class="inner_mov">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/t3mOCe7ElAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</div>
+		<!-- //mov -->
+		<!-- sns -->
+		<div class="sns inner">
+            <span><img src="image/main/hand.png" alt="손"></span>
+			<ul>
+				<li><a href="#"><img src="image/sns_icon1.jpg" alt="배달의민족"></a></li>
+				<li><a href="#"><img src="image/sns_icon2.jpg" alt="요기요"></a></li>
+				<li><a href="#"><img src="image/sns_icon3.jpg" alt="위메프오"></a></li>
+				<li><a href="#"><img src="image/sns_icon4.jpg" alt="카카오"></a></li>
+				<li><a href="#"><img src="image/sns_icon5.jpg" alt="우버이츠"></a></li>
+				<li><a href="#"><img src="image/sns_icon6.jpg" alt="쿠팡이츠"></a></li>
+			</ul>
+			<p>다양한 어플에서 만나요</p>
+		</div>
+		<!-- //sns -->
+	</div>
+	<!-- //content -->
+
+	<!-- footer -->
+	<footer></footer>
+	<!-- //footer -->
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+ </body>
+</html>

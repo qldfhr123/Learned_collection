@@ -1,0 +1,5 @@
+package com.care.dbQuiz.member;
+
+public class MailService {
+
+}

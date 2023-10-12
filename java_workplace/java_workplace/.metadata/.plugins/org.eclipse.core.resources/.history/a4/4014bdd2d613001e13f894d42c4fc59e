@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="session_board.BoardDAO"%>
+<%@page import="session_board.BoardDTO"%>
+
+<% 
+	String id = request.getParameter("id");
+	String title = request.getParameter("title");
+
+	String content = request.getParameter("content");
+	
+	BoardDAO boardDao = new BoardDAO();
+	
+	boardDao.updateboard(id,title,content)
+	
+%>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>News</title>
+  <link rel="stylesheet" href="0316style2.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+	
+	<div id ="warp">
+		<!--헤더시작-->
+		<div id = "header"></div>
+		<!--헤더 종료-->
+
+		<!--컨턴츠 시작-->
+		<div id="content">
+			<div class="left"></div>
+			<div class="center">
+				<div class = "top">
+					<p>헤드라인 뉴스</p>
+					<span>출근길 다시 꽃샘추위 아침기온 3 ~ 7도 뚝</span>
+				</div>
+
+				<div class ="img">
+					<img src ="weather.jpg" alt="날씨">
+				</div>
+				<div class = "text">
+					다시 찾아온 꽃샘추위…내일 아침 기온 영하권으로 ‘뚝’목요일인 16일은 따뜻한 남서풍을 불러일으키던 남해상 고기압이 동쪽으로 빠져나가면서 꽃샘추위가 찾아올 것으로 보인다. 기상청에 따르면 16일 아침 최저기 …
+					동아일보
+				</div>
+				
+
+			</div>
+			<div class="right"></div>
+		</div>>
+		<!--컨턴츠 종료-->
+
+		<!--푸터 시작-->
+		<div id = "footer"></div>
+		<!--푸터 끝-->
+	</div>
+
+
+
+ </body>
+</html>

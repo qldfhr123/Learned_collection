@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+
+
+    <!--header(s)-->
+    <header>
+	    <!--top-->
+		<div class="top">
+		    <div class="inner">
+			    <h1><a href="#"><img src="image/logo.png" alt="logo"></a></h1>
+				<!--pc_sch-->
+				<div class="inner_top">
+				    <ul>
+					    <li><a href="#">로그인</a></li>
+						<li>ㅣ</li> 
+						<li><a href="#">장바구니</a></li>
+						<li>ㅣ</li> 
+						<li><a href="#">회원가입</a></li>
+						<li>ㅣ</li> 
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+					<!--검색-->
+					<div>
+					    <form action="">
+						    <input type="text" name="" id="" placeholder="검색을 하세요.">
+							<button><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>
+					<!--//검색-->
+				</div>
+				<!--//pc_sch-->
+				<!--m_sch-->
+				<div class="sch"><button><i class="fa fa-search" aria-hidden="true"></i></button></div>
+				<!--//m_sch-->
+			</div>
+		</div>
+		<!--//top-->
+
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<ul class="nav-list">
+					<li><a href="#">기관</a></li>
+					<li><a href="#">사업</a></li>
+					<li><a href="#">후원</a></li>
+					<li><a href="#">참여</a></li>
+					<li><a href="#">소식</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- //nav -->
+		
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+			<a href="#"><span></span><span></span><span></span></a>
+		</div>
+		<!-- //mobile_menu -->
+	</header>
+	<!--//header(e)-->
+
+	<!--visual(s)-->
+	<div class="visual">
+		<div class="inner">
+			<div class="box">
+			    <h3><b>#당신의 이름</b>을 보태주세요</h3>
+				<h2>아동학대 정책개선 캠페인</h2>
+				<p>오늘도 하루평균 82명의 아이들이 학대 받고,<br> 지난 해 최소 42명의 아이들이 죽어서 집을 나왔습니다.<br> 돌려보낸 아이 8명 중 1명은 다시 위험 신고가 들어 옵니다.<br> 여러 어른을 만났지만 어떤 아이의 구조 신호는 대답을 한 번도 듣지 못합니다.</p>
+				<p>[보건복지부, 아동권리보장원, 2019 아동학대 주요통계, 2020]</p>
+				<a href="#">자세히보기</a>
+				<div class="line1"></div>
+			</div>
+			<div class="box">
+				<div class="line2">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//visual(e)-->
+
+	<!--content(s)-->
+	<div class="content">
+	     <!--story-->
+		<div class="story">
+		    <div class="inner">
+				<div class="title">
+					<h2><img src="image/logo.png" alt="logo"></h2>
+					<h3>세이브더칠드런 <b>나눔이야기</b></h3>
+				</div>
+				<div class="story_txt">
+				    <ul>
+					    <li>
+							<p><strong>국내사업</strong></p>
+							<p><b>까막눈 할배와 재윤이의 봄, 새학기 지원 그 후</b></p>
+							<p>쇠약한 몸으로 폐지를 줍는 할머니, 할아버지. 그리고 초등학교에 입학하는 재윤이(가명). 할머니 할아버지는 어려운 형편에 새학기에...</p>
+							<span><img src="image/main/thumbnail_img1.jpg" alt=""></span>
+					    </li>
+						<li>
+							<p><strong>긴급구호</strong></p>
+							<p><b>로힝야 난민캠프 화재 발생 ‘자꾸만 길을 잃는 아이들'</b></p>
+							<p>우리에게는 일상의 감각을 지탱해주는 많은 것들이 있습니다. 동네 어귀의 느티나무, 어린 시절 뛰어놀던 학교 운동장, 집 앞 슈퍼마켓. 어찌보면...</p>
+							<span><img src="image/main/thumbnail_img2.jpg" alt=""></span>
+					    </li>
+						<li>
+							<p><strong>월페이퍼</strong></p>
+							<p><b>세이브더칠드런 월페이퍼를 배경화면에 장식해 보세요!</b></p>
+							<p>2021년 4월 월페이퍼의 주인공은 방글라데시 로힝야에서 생활하는 '누르'입니다. 태어날 때부터 청각장애를 갖고 있던 누르는 살고 있던 마을이...</p>
+							<span><img src="image/main/thumbnail_img3.jpg" alt=""></span>
+					    </li>
+						<li>
+							<p><strong>긴급구호</strong></p>
+							<p><b>미얀마 폭력사태, 후원 아동이 사는 곳은 괜찮은가요?</b></p>
+							<p>미얀마는 이미 코로나19와 무력 분쟁 등으로 아동 38만 3천여 명 46만여 명이 교육과 보건, 영양, 심리적 건강의 위기를 겪고 있습니다...</p>
+							<span><img src="image/main/thumbnail_img2.jpg" alt=""></span>
+					    </li>
+					</ul>
+				</div>		
+			</div>
+		</div>
+		<!--//story-->
+	</div>
+	<!--//content(e)-->
+
+    
+
+  
+ </body>
+</html>

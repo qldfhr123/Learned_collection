@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@media screen and (max-width:1200px){
+    .inner{width:100%;}
+}
+
+/*header*/
+@media screen and (max-width:1200px){
+    header{position:relative; background:#222;}
+}
+
+/*visual*/
+@media screen and (max-width:975px){
+    .visual > img{display:none;}
+    .visual > span{display:block;}
+
+    .visual .vis_inner{align-items:flex-start;}
+	.visual .inner12{text-align:center; margin-top:100px;}
+}

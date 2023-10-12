@@ -1,0 +1,45 @@
+<%@page import="java.io.FileInputStream"%>
+<%@page import="java.io.File"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<% 
+
+	/*
+		사용자에게 파일을 전달
+	*/
+	
+	String id = request.getParameter("id");
+	String no = request.getParameter("no");
+	String fileName = request.getParameter("fileName");
+	
+	if(id == null || id.isEmpty()){
+		response.sendRedirect("boardContent.jsp?no="+no);
+		return;
+	}
+	
+	if(fileName == null || fileName.isEmpty()){
+		response.sendRedirect("boardContent.jsp?no="+no);
+		return;
+	}
+	
+	String saveDir = "C:\\javas\\upload"+id+"\\"+fileName;
+	
+	File f = new File(saveDir);
+	
+	if(f.exists() == false){
+		response.sendRedirect("boardContent.jsp?no="+no);
+		return;
+	}
+	
+	FileInputStream fis = new FileInputStream(f);
+	byte[]b = new byte[1024];
+	
+	while(true){
+		int result = fis.read(b, 0, len);//파일의 내용을 읽을수있다 -1반환한다 len 한반에 최대 읽을양
+		
+		if(result == -1)
+			break;
+	}
+	
+	
+%>

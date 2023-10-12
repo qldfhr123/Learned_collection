@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#wrap{width:100%;}
+.inner{width:1200px; margin:0 auto;}
+.inner_1400{width:1400px; margin:0 auto;}
+
+/*header*/
+.header{position:absolute; top:0; left:0; width:100%; height:147px; border-bottom:1px solid #ddd; background:#fff;}
+.header .top{border-bottom:1px solid #ddd; height:80px;}
+.header .top h1 img{display:block; width:138px; margin:0 auto;}
+/*.header .top h1{position:absolute; top:0; left:50%; margin-left:-69px;}둘 중 아무거나 써도 무방*/
+
+.header .top .inner{position:relative;}
+.header .top .inner ul{overflow:hidden; position:absolute; left:0; top:30px;}
+.header .top .inner ul li{float:left; font-size:13px; color:#ddd; margin:0 5px;}
+.header .top .inner ul li a{display:block; color:#666;}
+.header .search{position:absolute; right:0; top:30px;}
+
+/*visual*/
+.visual{display:table; width:100%; height:900px; background:url(../image/main/visual.jpg) no-repeat center center;}
+
+.visual > div{display:table-cell; height:100%; vertical-align:middle; text-align:center; color:#fff; padding-top:200px;}
+.visual > div h2{font-size:24px; font-weight:500; text-transform:uppercase; opacity:0.5;}
+.visual > div h3{font-size:30px; padding-top:10px;}
+.visual > div h4{font-size:92px; font-weight:700;}
+.visual > div p{padding-top:40px;}
+
+/*content*/
+.content{position:relative;}
+
+/*quick*/
+.quick{width:100%; position:absolute; top:-48px;}
+.quick ul{font-size:0; text-align:center;}
+.quick ul li{display:inline-block; width:33.3%; height:96px; line-height:96px; font-size:21px; border:1px solid #ddd; border-right:0; background:#fff; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.quick ul li:last-child{border-right:1px solid #ddd;}
+.quick ul li a{display:block;}
+.quick ul li a:hover{background:#338cfa; color:#fff;}
+
+/*notice*/
+.notice{background:#f5f7f8; padding:140px 0 90px 0;}
+.notice .inner{display:table;}
+.notice .inner > div,
+.notice .inner > ul{display:table-cell; vertical-align:top;}
+.notice .inner > div{width:220px;}
+.notice .inner > ul{width:980px; font-size:0;}
+
+.notice .inner > div h2{font-size:45px; color:#000; font-weight:500; letter-spacing:-1px; text-transform:uppercase;}
+.notice .inner > div p{font-size:20px; color:#ccc;}
+.notice .inner > div a{display:block; margin-top:120px;}
+
+.notice .inner > ul li{display:inline-block; width:315px; height:257px; background:#fff; border:1px solid #ddd; font-size:20px; font-weight:400; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+/*그림자 때문에 overflow:hidden;보다 font-size:0; / float:left;보다 display:inline-block; 사용*/
+.notice .inner > ul li:nth-child(2){margin:0 17px;}
+
+.notice .inner > ul li a{position:relative; display:block; width:100%; height:100%; color:#000; padding:24px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.notice .inner > ul li a p{position:relative; letter-spacing:-1px; line-height:145%; padding-top:20px;}
+.notice .inner > ul li a p:after{position:absolute; content:""; width:34px; height:1px; background:#333; top:0; left:0;}
+.notice .inner > ul li a b,
+.notice .inner > ul li a span{position:absolute; bottom:24px;}
+.notice .inner > ul li a b{left:24px; font-size:14px; color:#666; font-weight:400;}
+.notice .inner > ul li a span{right:24px; display:block; font-size:13px; color:#666; font-weight:400; border:1px solid #ddd; padding:5px;}
+
+.notice .inner > ul li:hover{border:1px solid #fa5258; box-shadow:8px 8px 10px rgba(0,0,0,.1); -webkit-box-shadow:8px 8px 10px rgba(0,0,0,.1); -moz-box-shadow:8px 8px 10px rgba(0,0,0,.1);}
+/*box-shadow:8px 8px 10px rgba(0,0,0,.1); x축 y축 blur-radius color(r,g,b,opacity)*/
+.notice .inner > ul li:hover a p{color:#fa5258;}
+.notice .inner > ul li:hover a p:after{background:#fa5258;}
+
+/*service*/
+.service{padding:90px 0; text-align:center;}
+.service h2{font-size:40px; color:#222; text-transform:uppercase; font-weight:500; letter-spacing:-1px; margin-bottom:10px;}
+.service h2 span{color:#338cfa;}
+.service > p{font-size:17px; margin-bottom:30px;}
+
+.service ul{font-size:0;}
+.service ul li{display:inline-block; border:1px solid #ddd;}
+.service ul li:nth-child(2){margin:0 40px;}
+.service ul li a{display:block;}
+.service ul li a > div{font-size:17px; color:#555; padding:40px;}
+.service ul li a > div p:first-child{font-size:20px; color:#000; margin-bottom:15px;}
+
+/*etc*/
+.etc{background:#f5f7f8; padding:90px 0;}
+.etc .inner{overflow:hidden;}
+.etc .mov{float:left; width:775px;}
+.etc ul{float:right; width:385px; border-top:1px solid #ddd;}
+.etc ul li{position:relative; font-size:15px; color:#555; border-bottom:1px solid #ddd; padding:30px 15px;}
+.etc ul li:nth-child(1):after{position:absolute; content:""; background:url(../image/main/icon1.png) no-repeat; width:110px; height:110px; right:0; top:50px;}
+.etc ul li:nth-child(2):after{position:absolute; content:""; background:url(../image/main/icon1.png) no-repeat; width:110px; height:110px; right:0; top:50px;}
+
+.etc ul li p{line-height:145%;}
+.etc ul li p b{display:block; font-size:20px; color:#000; font-weight:500; margin-bottom:10px;}
+.etc ul li a{display:block; background:#fff; border:1px solid #ccc; width:110px; height:35px; line-height:35px; font-size:18px; color:#222; text-align:center; margin-top:33px;}
+
+/*footer*/
+.footer .sns{height:90px; background:#338cfa; margin-bottom:20px;}
+.footer .sns .inner{display:table; height:100%;}
+.footer .sns .inner > h3,
+.footer .sns .inner > p,
+.footer .sns .inner > div{display:table-cell; height:100%; vertical-align:middle;}
+
+.footer .sns .inner > h3{width:700px; font-size:42px; color:#fff;}
+.footer .sns .inner > p{width:181px; margin-right:25px;}
+.footer .sns .inner > div{font-size:0;}
+.footer .sns .inner > div h4,
+.footer .sns .inner > div ul{display:inline-block;}
+.footer .sns .inner > div h4{font-size:16px; color:#fff; font-weight:400; padding:0 10px 0 30px; position:relative; top:-8px;}
+.footer .sns .inner > div h4 b{font-weight:500;}
+.footer .sns .inner > div ul{overflow:hidden;}
+.footer .sns .inner > div ul li{float:left; margin-right:7px;}
+
+.footer .info{margin-bottom:20px;}
+.footer .info ul li{font-size:14px; color:#555; font-weight:400;}
+.footer .info ul li b{font-weight:500;}
+
+.footer .copy{border-top:1px solid #eee; padding:20px 0;}

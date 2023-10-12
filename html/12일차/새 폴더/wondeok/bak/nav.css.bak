@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/*gnb*/
+.gnb ul{font-size:0; text-align:center;}
+.gnb ul li{display:inline-block; width:20%; height:67px; line-height:67px; font-size:20px; font-weight:500; border-left:1px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.gnb ul li:last-child{border-right:1px solid #ddd;}

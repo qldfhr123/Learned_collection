@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+html,body{font-size:16px; color:#2f2c28; font-weight:300;}
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,p,ul,ol,li{font-family:'Noto Sans KR'; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*레이아웃*/
+#wrap{width:1099px; margin:0 auto;}
+.header{position:relative; width:100%; height:66px;}
+.content{width:100%;}
+.footer{width:100%; height:100px; background:gray;}
+
+/*nav*/
+.nav{position:absolute; right:0; top:0;}
+.nav ul{overflow:hidden;}
+.nav ul li{float:left; font-size:19px; font-weight:500;}
+.nav ul li a{display:block; padding:0 20px; line-height:66px;}
+.nav ul li:last-child a{padding-right:0;}
+
+/*content*/
+.content{overflow:hidden;}
+.content .box{position:relative; float:left; width:209px; height:195px; padding:20px; border:1px solid #ccc; margin-right:13.5px; margin-bottom:13.5px; box-sizing:border-box; -webkit-box-sizing:border-box; cursor:pointer;}
+.content .box:last-child{margin-right:0;}
+
+.box.box_w431{width:431px;}
+/*class 2번 적용시 띄어쓰기 없음*/
+.box_bg1{background:#e0e4e7;}
+.box_bg2{background:#32ba94;}
+.box_bg3{background:#268ad8;}
+.box_bg4{background:#285ea3;}
+.box_bg5{background:#00a8e4;}
+
+.content .box > span{position:absolute; left:20px; bottom:20px;}
+.content .box > h2,
+.content .box > p{text-align:right;}
+.content .box > h2{font-size:21px; color:#fff; font-weight:500; letter-spacing:-1px; margin-bottom:10px;}
+.content .box > p{color:#fff; letter-spacing:-1px; line-height:145%;}
+
+/*section1*/
+.section1 .box:first-child{cursor:default;}
+.section1 .msg > h2{font-size:21px; font-weight:700; color:#000; margin-bottom:60px;}
+.section1 .msg > h2 span{display:block; font-size:14px; font-weight:300; color:#444; margin-top:5px;}
+.section1 .msg > span{position:absolute; right:0; bottom:0;}
+/*
+    부모 기준 position:relative; 필요
+    .section1 .box=.content .box
+    (.content .box의 padding값 무시)
+*/
+.section1 .msg > span img{display:block;}
+
+.section1 .msg > ul{overflow:hidden;}
+.section1 .msg > ul li{float:left; margin-right:5px;}
+.section1 .msg > ul li a{display:block; width:56px; height:25px; border:1px solid #8a8c8e; font-size:13px; text-align:center; line-height:25px;}

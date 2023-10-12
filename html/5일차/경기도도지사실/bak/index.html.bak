@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+    <div id="wrap">
+	    <!-- header -->
+		<div class="header">
+			<h1><a href="#"><img src="image/logo.jpg" alt="새로운 경기, 공정한 세상"></a></h1>
+			<!-- nav -->
+			<div class="nav">
+				<ul>
+					<li><a href="#">정책ㆍ공약</a></li>
+					<li><a href="#">소통</a></li>
+					<li><a href="#">참여</a></li>
+					<li><a href="#">소식</a></li>
+					<li><a href="#">경기도 지사</a></li>
+					<li><a href="#">민선7기 2주년</a></li>
+				</ul>
+			</div>
+			<!-- nav -->
+		</div>
+		<!-- header -->
+
+		<!-- content -->
+		<div class="content">
+		    <!-- 1번째 줄 -->
+			<div class="section1">
+				<div class="box box_w431 box_bg1">
+					<div class="msg">
+						<h2>이 재 명<span>경기도지사</span></h2>
+						<ul>
+							<li><a href="#">신년사</a></li>
+							<li><a href="#">인사말</a></li>
+							<li><a href="#">프로필</a></li>
+						</ul>
+						<span><img src="image/do_re_180jisa.png" alt="이재명"></span>
+					</div>
+				</div>
+				<div class="box box_bg2">
+					<span><img src="image/ico-bg-item05.png" alt="공약&매니페스토"></span>
+					<h2>공약 & 매니페스토</h2>
+					<p>
+						도민과 함께 만들어갈 경기도의 모습
+						<span>민선7기 2주년</span>
+					</p>
+				</div>
+				<div class="box box_bg3"></div>
+				<div class="box box_bg4"></div>
+			</div>
+			<!-- 1번째 줄 -->
+
+			<!-- 2번째 줄 -->
+			<div class="section2"></div>
+			<!-- 2번째 줄 -->
+
+			<!-- 3번째 줄 -->
+			<div class="section3"></div>
+			<!-- 3번째 줄 -->
+
+			<!-- 4번째 줄 -->
+			<div class="section4"></div>
+			<!-- 4번째 줄 -->
+		</div>
+		<!-- content -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- footer -->
+    </div>
+  
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+   <link rel="stylesheet" href="0316style1.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+	<div class = "warp">
+		<div class = "left">
+											<p class = "bord">***칼럼으로 본 한국***</p>
+											<p class = "bord">2023년 한국은 1850년 영국보다 더 일해라?</p>
+
+											<p class = "blue">윤효원의 '노동과 세계'</p>
+
+											<p class = "s">[윤효원 아시아노사관계 컨설턴트] 노동운동가 출신 이정식 장관의 '공장법' 타령 공장법(factory act)이 처음 출현한 나라는 산업혁명의 고향인 영국이다. 아담 스미스의 <국부론>이 나온 ...</p>
+
+											<p class ="text">'캘박'을 아시나요</p> <p class = "blue2">기자수첩</p>
+
+											<p class ="text">‘더 글로리’ 복수 그 다음을 묻다</p><p class = "blue2">정덕현의 끄덕끄덕</p>
+
+											<p class ="text">'졸전·혹사·조롱' 점철된 이강철號, 비판조차 수</p><p class = "blue2">기자수첩</p>
+											<p class ="text">SVB라는 돌발 변수가 가져온 충격파</p><p class = "blue2">광화문</p>
+		</div>
+
+		<div class = "right">오른쪽</div>
+	</div>
+	
+ </body>
+</html>

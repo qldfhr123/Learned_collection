@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*gnb*/
+.gnb ul {font-size:0; text-align:center;}
+.gnb ul li {display:inline-block; width:20%; height:67px;line-height:67px; font-size:20px; font-weight:500; border-left:1px solid #ddd; box-sizing:border-box;}
+
+.gnb ul li:last-child{border-right:1px solid #ddd;}
+.gnb ul li a {display:block;}
+.gnb  ul li a:hover{color:#3388cf;}
+
+.gnb ul li a.selected {color:#338cfa;}
+.gnb ul li a.selected2 {color:#338cfa;}
+
+
+
+
+
+
+
+
+
+

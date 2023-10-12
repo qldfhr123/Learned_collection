@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script language="JavaScript">
+  //confirm 전달받은 내용을 확인하는 함수
+  yesno = confirm("11시 50분");
+  if(yesno == true){
+	alert("맞습니다");
+  }else{
+	document.write("12:30")
+  }
+  /*
+	movto = confirm ("네이버로이동");
+	if(movto == true){
+		location.href="http://www.naver.com"
+	}else if (movto = confim("다음으로 이동")){
+	location.href="http://www.daum.net"
+	}
+	  */
+
+  </script>
+ </body>
+</html>

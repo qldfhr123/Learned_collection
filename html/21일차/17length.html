@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script language="JavaScript">
+  //원하는 글자의 위치를 뽑는 매서드값
+  	st = "ㅇㅈㄸㄲㅅ"
+	document.write(st.length);
+	document.write(st.indexOf("ㅅ")); //시작부터 검색해라 일치하는 결과없이 없을경우 -1로 결과를 리턴
+	document.write(st.lastIndexOf("ㅈ"));//종료부터 검색 순번 변함 없음
+	document.write(st.chartAt("2"));//문자열에서 특정인덱스에 위치하는 유니코드 단일문자 반환
+  </script>
+ </body>
+</html>

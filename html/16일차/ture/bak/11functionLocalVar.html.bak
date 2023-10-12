@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script language="JavaScript">
+  //var 사용하면 지역변수 인식 
+  //var 사용하지않으면 전역변수 인식
+	function localver(){
+		a = "전역변수입니다" //전체변수를 어디서나 사용가능
+		var b = "지역변수입니다" // 서로 다른 구역 안에서 같은 이름 사용가능
+		document.write("a는", a );
+		document.write("<br>");
+		document.write("b는", b );
+	}
+  </script>
+ </head>
+ <body>
+  <script language="JavaScript">
+	localvar()
+	document.write("a는", a );
+	document.write("<br>");
+	document.write("b는", b );
+  </script>
+ </body>
+</html>

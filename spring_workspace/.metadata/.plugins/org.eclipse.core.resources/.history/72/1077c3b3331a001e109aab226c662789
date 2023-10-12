@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>popup</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		function openPop(){
+		 	var popup = window.open(' http://localhost:8086/cs/popup.jsp', '쿠키팝업', 'width=700px,height=800px,scrollbars=yes');
+ 		}
+	</script>
+	
+	<h1>쿠키를 위한 팝업 창입니다</h1>
+	<input type="checkbox" name="check">하루동안 열지않음
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*레이아웃*/
+#wrap{width:100%; margin:0 auto;}
+#header{width:100%; height:130px; background:tomato;}
+#content{width:1080px; margin:50px auto; border-top:1px solid #888;overflow:hidden;}
+#content .left,
+#content .center{float:left; border-right:1px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box;}
+/*border 1px등 별도 추가되더라도 width 753px안에서 넓이를 더 늘리지않고 다 포함하는 기능 box-sizing:border-box;*/
+
+#content .center.top{float:left; border-bottom:0.5px solid #ddd; box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+
+#content .right{float:right;}
+
+#content .left{width:106px;}
+#content .center{width:648px;}
+#content .right{width:326px;}
+
+#footer{width:100%; height:100px; background:teal;}
+
+/*content*/
+
+
+#content .center {margin-left:20px; overflow:hidden;}
+#content .center .top br  {font-weight:500; margin-top:30px; margin-bottom:15px; padding-bottom:25px; border-bottom:0.5px solid #888 ; }
+#content .center .top span{font-weight:500;  color:#3366ff; padding-bottom:25px;}
+
+
+#content .center .img{float:left;margin-top:30px;}
+
+#content .center .img,
+#content .center.text {float:left; font-size:4px;}
+
+/*left*/
+.left{height:500px; background:#eee;}
+
+

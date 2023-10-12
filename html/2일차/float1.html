@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>웹사이트 기본구조div</title>
+  <style type = "text/css">
+		.wrap{
+				margin:80px  auto;
+				width:800px;
+				}
+
+		.header{
+				width:800px;
+				height:30px;
+				background: #0099ff;
+				}
+
+			.content{
+						overflow:hidden;/* 제한된 영역만큼만 적용*/
+						}
+			
+			.content .left{
+								float:left;
+								width: 500px;
+								height:200px;
+								background: #ff0000;
+								}
+
+			.content .right{
+								float:right;
+								width: 300px;
+								height:200px;
+								background: #00ffcc;
+								}
+
+		.footer{
+				width:800px;
+				height:70px;
+				background: #ffcc00;
+				}
+  </style>
+
+ </head>
+ <body>
+		<div class = "wrap">
+			<div class  ="header">헤더</div>
+			<div class  ="content">
+				<div class = "left">좌컨텐츠</div>
+				<div class = "right">우컨텐츠</div>
+			</div>
+
+			<div class  ="footer">푸터</div>
+		</div>
+ </body>
+</html>

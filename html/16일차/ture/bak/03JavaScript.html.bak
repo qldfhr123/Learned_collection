@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+
+    <script language="JavaScript">
+		//관계연산자
+		a = 10
+		b = 15
+		document.write("a==b:", a==b);
+		document.write("<br>");
+		document.write("a!=b:", a!=b);
+		document.write("<br>");
+		document.write("a>=b:", a>=b);
+		document.write("<br>");
+		document.write("a< b:", a<b);
+		document.write("<br>");
+
+		//논리연산자 : 두가 지상의 조건에서 A가 B보다
+		x = true
+		y = false
+		document.write("<br>");
+		document.write("<br>");
+		document.write("x && y :", x && y); //논리곱 : 두개의 식이 모두 true경우에만 true = "and"
+		document.write("<br>");
+		document.write("<br>");
+		document.write("x || y :", x ||y); //논리합 :두개의 식중에 하나만 true 면 true ="or" 
+		document.write("!x :", !x); //논리의 부정 : !(식)와는 반대로 값을할당 "not" 나타내는값
+    </script>
+ </body>
+</html>

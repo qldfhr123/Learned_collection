@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+header {width:100%; margin:0 auto;}
+
+
+header .h_t{display: flex;  justify-content: center;align-items: center; border-bottom:1px solid #acacac; }
+header .h_t .l ul li{display:inline-block; color:#acacac; font-size:15px;}
+header .h_t .l ul li:nth-child(2){border-left:1px solid #acacac; border-right:1px solid #acacac; padding:0 5px;}
+header .h_t .c{padding-left:250px; padding-right:350px; margin-left:-50px;} 
+
+header .h_b{text-align:center; }
+header .h_b ul li {display:inline-block; font-size:17px; padding:20px 25px; font-weight:700;width:140px;border-left:1px solid #acacac;   height:21px; line-height:21px; }
+header .h_b ul {border-bottom:1px solid #acacac; }
+header .h_b ul li:last-child{border-right:1px solid #acacac; }
+
+
+.visual {width:100%; height:750px; margin:0 auto; background:#f6f7f9;}
+.visual ul li.bg1 {background-image:url(../image/main/visual.jpg); width:100%; height:750px; background-size:cover;position:relative;}
+.visual ul li.bg1 div {color:#fff;  position:absolute; top:35%; left:43%; text-align:center;line-height:25px;}
+.visual ul li:nth-child(2) img {position:absolute; top:55%; left:50%;}
+
+.visual ul li.bg1 div p:nth-child(1) {opacity: 0.4;}
+.visual ul li.bg1 div p:nth-child(2) {font-size:20px;} 
+.visual ul li.bg1 div p:nth-child(3) {font-size:60px; font-weight:700; line-height:70px;}
+.visual .list {position:relative;}
+.visual .list ul {display:block;position:absolute; bottom:-35px; left: 340px;} 
+.visual .list ul li {display:inline-block;}
+.visual .list ul li {text-align:center; }
+.visual .list ul li p {font-weight:500;}
+.visual .list ul li:first-child p{ background:#fff;color:#000; border:1px solid #cdcdcd;padding:30px; width:350px;}
+.visual .list ul li:nth-child(2) p,
+.visual .list ul li:nth-child(3) p {margin-left:-5px;background:#fff;color:#000;border:1px solid #cdcdcd;padding:30px; width:350px;}
+
+.visual .list ul li:hover p{ background:#008efe; color:#fff; border:1px solid #008efe; }
+
+.visual .notice{padding-top:140px; padding-left:250px; background:#f6f7f9;}
+.visual .notice .nt{position:relative; width:167px; height:236px; }
+.visual .notice .nt img {position:absolute; bottom:50px; left: 0px;}
+.visual .notice .nt p {position:absolute; top:-60px; left: 100px;font-size:25px;color:#cdcdcd; padding-bottom:5px;}
+.visual .notice .nt p b{font-size:35px;color:#000; letter-spacing:-1px;}
+
+.visual .notice ul {position:relative;}
+
+.visual .notice ul li {width:300px; height:255px; border:1px solid #000;  }
+
+.visual .notice ul li:hover h2 {color:#ff0000;}
+.visual .notice ul li:hover {border:1px solid #ff0000; }
+
+.visual .notice ul li:nth-child(1){position:absolute; top:-440px; left: 250px;}
+.visual .notice ul li:nth-child(2){position:absolute; top:-440px; left: 600px;}
+.visual .notice ul li:nth-child(3){position:absolute; top:-440px; left: 950px;}
+.visual .notice ul li a span {display:block; width:34px; height:1px; border:1px solid #666666;background:#666666; margin-top:15px; margin-left:15px;}
+
+.visual .notice ul li  a h2{margin-top:-15px; margin-left:15px; line-height: 20px; color:#000; font-size:20px; font-weight:500;}
+.visual .notice ul li {margin-top:140px; margin-left:15px; color:#919191;}
+.visual .notice ul li  a p{margin-top:140px; margin-left:15px; color:#919191;}
+.visual .notice  ul li  a div p{position:absolute; bottom:20px; right:15px; color:#000; font-size:10px; border: 1px solid #000; width:35px; padding:8px 8px;text-align:center;}
+.visual .notice  ul li:nth-child(3)  a  p {margin-top:115px; margin-left:15px; color:#919191;}
+
+
+
+.visual .service {padding:90px; padding-left:220px; }
+.visual .service > h2 {display: flex;  justify-content: center;align-items: center;}
+.visual .service > h2 span {color:#008efe;}
+.visual .service > p {font-size:15px; color:#000;display: flex;  justify-content: center;align-items: center;padding-top:10px;}
+.visual .service ul {font-size:0;margin-left:270px; }
+.visual .service ul li{margin-top: 20px;  padding-right:1px; display: inline-block; margin-right:10px;height:440px; border:1px solid #666666; font-size:15px;}
+.visual .service ul li a {text-align:center; margin-top:55px;}
+.visual .service ul li a p b{font-weight:500;}
+
+.visual .viedo{height:700px; width:100%;background:#f6f7f9;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

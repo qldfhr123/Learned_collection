@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+  <script language="JavaScript">
+  //window.open ("경로", 창이름, 속성 "(너비, 높이, 리사이즈 ,메뉴)")
+	function open_win(){
+		win1  = window.open("popup.html", "win1","resizable=no", "scrollbar=no", "menubar=no" "widht=300, height=200")
+	}
+	function close_win(){
+		win1.close();
+	}
+	</script>
+ </head>
+ <body>
+	<input type ="button" value = "열기" onclick="open_win()">
+	<input type ="button" value = "닫기" onclick="close_win()">
+  </script>
+ </body>
+</html>

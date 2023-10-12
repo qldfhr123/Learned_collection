@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+html,body{font-size:16px; color:#2f2c28; font-weight:300;}
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,p,ul,ol,li{font-family:'Noto Sans KR'; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+
+/*레이아웃*/
+.wrap{width:800px; margin:0 auto;}
+
+/*nav*/
+.nav{height:100px; background:#f6f6f6;}
+.nav ul{text-align:center; font-size:0;}
+.nav ul li{display:inline-block; font-size:17px; line-height:100px;}
+.nav ul li a{display:block; padding:0 30px;}
+.nav ul li a.selected{color:#ff6600; font-weight:700;}
+.nav ul li a:hover{color:#ff6600;}
+
+/*content*/
+.content{margin:50px auto;}
+.content > h2{font-size:41px; color:#000; font-weight:500; margin-bottom:50px;}
+.content > h2 span{display:block; width:50px; height:2px; background:#000; margin:20px 0;}
+
+/*index(=main) msg*/
+.msg h1{font-size:50px; color:#000; font-weight:300; line-height:145%; text-align:center; padding:50px 20px;}
+.msg h1 span{display:block; color:#fff; background:#ff6600;}
+
+/*about(sub)*/
+.about h2{font-size:21px; color:#0033cc; font-weight:300; margin-bottom:40px;}
+.about ul{font-size:0; text-align:center;}
+.about ul li{display:inline-block; font-size:17px; margin:0 30px;}
+.about ul li p{margin-top:15px;}
+
+/*news(sub)*/
+.news table{width:100%; border-top:2px solid #000;}
+.news table th,
+.news table td{padding:15px 0; border-bottom:1px solid #ddd;}
+.news table td{text-align:center;}
+
+/*footer*/
+.footer{background:#424242; padding:20px 0;}
+.footer p{color:#fff; text-align:center;}

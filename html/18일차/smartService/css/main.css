@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+#wrap{width:100%;}
+.inner{width:887px; margin:0 auto;}
+
+.header{position:absolute; top:0; width:100%;}
+.header .inner{position:relative;height:76px; margin-top:20px; border-bottom:1px solid rgba(255,255,255,0.3);}
+.top {position:absolute;top:30px; left:0;}
+.top ul li {position:relative; float:left; font-size:14px; color:#fff; font-weight:400; margin-right:30px;padding-left:30px;}
+
+.top ul li:after{position:absolute; content:""; width:23px; height:23px; left:0; top:-2px;}
+.top ul li:first-child:after {background:url(../image/calendar.png)no-repeat;}
+.top ul li:last-child:after {background:url(../image/cart.png)no-repeat;}
+
+.top ul li span {color:#a5abff; font-weight:700;}
+
+.nav {position:absolute;top:30px; right:0;}
+.nav ul li {float:left; font-size:18px; font-weight:600;}
+.nav ul li a {display:block; height:76px; line-height:76px; text-transform:uppercase; color:#fff; padding: 0 20px;}
+.nav ul li:last-child a {padding-right:0px; padding-top:6px;}
+.nav ul li a:hover{color:#a5abff; border-bottom:3px solid #a5abff;}
+.nav ul li:last-child a:hover {border-bottom:0;}
+
+/*visual*/
+.visual {display:table; height:689px; width:100%; background:url(../image/visual_bg.jpg)no-repeat center center;}
+.visual > div {display:table-cell; height:100%; vertical-align:middle; text-align:center;color:#fff;} 
+.visual > div h2 {font-size:23px; color:#a5abff; letter-spacing:10px; margin-bottom:40px;}
+.visual > div h3 {font-size:90px;}
+.visual > div p {font-size:14px; line-height:135%; margin-bottom:50px;}
+.visual > div a {display:inline-block; background:#4166de; height:45px; line-height:45px; color:#fff; font-weight:500px; padding:0 50px; border-radius:45px;}
+.visual > div span {display:block; font-size:30px; font-weight:300; margin-top:50px;  }
+
+/*content*/
+.quick {background:#4166de; padding:30px 0; }
+.quick ul {font-size:0; text-align:center;}
+.quick ul li {display:inline-block; width:33.3%;}
+.quick ul li a  {display:table; width:100%;}
+.quick ul li a > p,
+.quick ul li a > div{display:table-cell; font-size:12px; color:#fff; vertical-align:middle;text-align:left;}
+.quick ul li a > div p:first-child{font-size:18px; font-weight:700; text-transform:uppercase; margin-bottom:8px;}
+
+.view {height:738px; background:url(../image/view_bg.jpg)no-repeat center center;}
+.view .inner {display:table;margin-top:120px;}
+.view .inner > div,
+.view .inner > p{display:table-cell; vertical-align:middle;}
+
+.view .inner > div{width:60%; padding:0 20px;}
+.view .inner > p {width:40%; text-align:right;}
+
+.view .inner > div h2 {font-size:41px; font-weight:300; margin-bottom:30px;}
+.view .inner > div h2 span{font-weight:700;}
+.view .inner > div h3{font-size:16px; color:#666; line-height:135%; font-weight:500; margin-bottom:20px;}
+.view .inner > div p {font-size:14px; color:#666; line-height:135%; font-weight:500; margin-bottom:40px;}
+.view .inner ul {overflow:hidden; width:193px; margin-bottom:40px;}
+.view .inner ul li{float:left; margin-right:7px; margin-bottom:7px;}
+.view .inner ul li:nth-child(4),
+.view .inner ul li:nth-child(8){margin-right:0;}
+.view .inner > div > a {display:block; width:170px; height:43px; line-height:43px; background:#4166de; color:#fff; font-weight:500; text-align:center;border-radius:40px;}

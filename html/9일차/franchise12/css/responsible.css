@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*공통*/
+@media screen and (max-width:768px){
+   .inner{width:95%;}
+}
+
+/*header*/
+@media screen and (max-width:480px){
+    body > header h1{position:relative; top:10px;}
+	body > header h1 img{width:160px;}
+}
+@media screen and (max-width:320px){
+    body > header{height:65px;}
+	body > header h1{top:7px;}
+	body > header h1 img{width:130px;}
+}
+
+/*visual*/
+@media screen and (max-width:430px){
+    .visual .inner > img{display:none;}
+    .visual .inner span{display:block;}
+}
+
+/*mov*/
+@media screen and (max-width:480px){
+    .mov{padding:30px;}
+}
+@media screen and (max-width:385px){
+    .mov{padding:20px 10px 10px 10px;}
+	.mov h2{line-height:135%;}
+	.mov h2 br{display:block;}
+}
+
+/*sns*/
+@media screen and (max-width:680px){
+    .sns > p{font-size:37px;}
+	.sns > span img{width:90px;}
+
+	.sns ul{padding:30px;}
+	.sns ul li{width:calc(100% / 3 - 20px); margin:10px;}
+}
+@media screen and (max-width:540px){
+    .sns { padding:60px 60px 30px 60px;}
+	.sns > p {font-size:31px; padding-right:0; text-align:left; margin-top: 20px;}
+	.sns > span {right:80px; bottom:10px;}
+	.sns > span img{width:75px;}
+	.sns ul {padding:20px;}
+}
+
+@media screen and (max-width:480px){
+	.sns > p {font-size:27px;}
+	.sns > span {right:70px; }
+}
+@media screen and (max-width:430px){
+	.sns { padding:20px 20px 0px 20px;}
+	.sns > p {font-size:21px; letter-spacing:-1px; margin-top:0; padding:20px 0 ;}
+	.sns > span {right:50px;}
+	.sns > span img {width:60px;}
+
+	.sns ul {padding:10px;}
+}
+
+@media screen and (max-width:320px){
+	.sns > span {right:30px; bottom:25px;}
+	.sns > span img {width:45px;}
+}
+
+@media screen and (max-width:430px){
+	.shc  {background-size:cover;}
+	/*배경을 사용하는 요소를 다 채울 수있게 이미지를 확대 또는 축소, 가로 세로 비율을 유지*/
+	.sch .inner_sch{paddin: 0 10px;}
+	.sch .inner_sch h2 {font-size:31px;}
+	.sch .inner_sch > p {font-size:16px;}
+	.sch .inner_sch > p br{display:none;}
+	
+	.sch .inner_sch > div input,
+	.sch .inner_sch > div button{height:50px;}
+	.sch .inner_sch > div button:after{width:36px; height:36px; background-size:36px; margin-left:-18px; margin-top:-18px;}
+}
+
+/*etc*/
+@media screen and (max-width:480px){
+	.etc .box{height:200px; }
+	.etc .box .tel a p {font-size:27px;}
+
+	.etc .box .about h2{font-size:21px;}
+	.etc .box .about h2 p,
+	.etc .box .about a{font-size:15px; height:35px;line-height:35px;}
+}
+
+
+@media screen and (max-width:360px){
+	.etc .box{height:180px; }
+	.etc .box .tel a p {font-size:23px;}
+
+	.etc .box .about h2{font-size:19px;}
+
+}
+
+
+
+/*footer*/
+
+@media screen and (max-width:320px){
+	footer ul li {font-size:14px; letter-spacing:-1px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ </head>
+ <body>
+
+    <div id="wrap">
+		<div class="header"></div>
+		<div class="visual"></div>
+
+		<!-- content -->
+		<div class="content">
+			<span class="material-symbols-outlined">calendar_month</span>
+		</div>
+		<!-- //content -->
+
+		<div class="footer"></div>
+    </div>
+  
+ </body>
+</html>

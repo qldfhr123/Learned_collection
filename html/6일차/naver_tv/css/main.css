@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#wrap{width:630px; margin:50px auto;}
+
+.content h2{font-size:20px; font-weight:500; color:#212121; margin-bottom:20px;}
+
+/*star*/
+.star{position:relative; padding-bottom:30px;  margin-bottom:30px;border-bottom:1px solid #ddd;}
+.star ul{overflow:hidden;}
+.star ul li {float:left; width:148px; margin-right:12.6px;}
+.star ul li:last-child { margin-right:0px;}
+.star ul li a {display:block;}
+.star ul li a span{position:absolute; display:block; background:#f40080; font-size:12px; color:#fff; font-weight:400; padding: 2px 3px;}
+
+/*btn*/
+.btn_num{position:absolute; right:0; font-size:14px; color:#666;}/*작은 아이들 position*/
+.btn_num span b{color:red; font-weight:500;}
+
+/*news*/
+.news ul li {display:table; width:100%; border-bottom: 1px solid #ddd; cursor: pointer; padding:25px 0;}
+
+/*
+	display:block; 넓이, 높이, 마진, 패딩, 줄바꿈
+	display:inline-block ; 넓이, 높이, 마진, 패딩, 가로 정렬
+	(넓이, 높이 지정하지 않을 경우 컨텐츠 영역만큼 잡힘)
+	display:none 태그기능 실행 불가
+	display: table  테이블 지정
+	display:tabl-cell; 테이블 td칸 지정 margin 지정 불가
+	display:felx; 특성의 flx container 정, 기본 세로 정렬 css 3.0
+	display: inline-flex; inline특성 정의 flxe container 정의 기본 가로 정렬 css 3.0
+*/
+
+.news ul li > p,
+.news ul li >  div {display: table-cell; vertical-align:middle;}
+.news ul li > div{width: 76.5%;}
+.news ul li > p{width: 23.5%; padding-right:15px;}
+.news ul li > div > p{font-size:12px; color:#555; font-weight:400; line-height:145%; letter-spacing:-1px; margin-bottom:8px;}
+.news ul li > div > p > b{font-size:14px; color:#000;}
+.news ul li > div > p:last-child{font-size:11px; margin-bottom:0;} 
+.news ul li: hover > div > p:nth-child(2){text-decoration:underline;}

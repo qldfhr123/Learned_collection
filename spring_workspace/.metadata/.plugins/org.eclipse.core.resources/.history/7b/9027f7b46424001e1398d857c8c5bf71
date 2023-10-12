@@ -1,0 +1,6 @@
+package com.care.dbQuiz.config;
+
+ui
+public class MailConfig {
+
+}

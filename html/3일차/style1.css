@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,th,tr,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+ul,ol,li{list-style:none;}
+/*레이아웃*/
+/*li 에는 줄바꿈 기능이 기본float 줄필요 없음*/
+.fun{width:350px; margin:0 auto; margin-top: 20px;  overflow:hidden; padding: 0 0 100% 0;}
+
+/*float 하고 상위데이터 위치에 overflow hidden*/
+
+.fun ul p{width:40%;  box-sizing:border-box; -webkit-box-sizing:border-box;}
+.fun ul .text{float:left; font-size: 12px; letter-spacing: 1px;  box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+

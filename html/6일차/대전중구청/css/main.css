@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{background:#ebf0f4;}
+
+#wrap{width:1240px; margin:50px auto;}
+/*15px*/
+
+
+
+.bg1{background:#155f8c}
+.bg2{background:#26a19c}
+.bg3{background:#1698c9}
+
+.bg4{background:#333532}
+
+.content{position:relative;  display:block; box-sizing:border-box; -webkit-box-sizing:border-box; }
+
+.top {overflow:hidden; margin-bottom:30px;}
+.top h2{font-size:35px; padding-right:40px;}
+.top h2 span{color:#26a19c; }
+.top h2,
+.top  p{display: inline-block; vertical-align: middle;}  
+
+.content .inter{ position: relative;  vertical-align: middle;		}
+
+.content .inter .left {left: 0;top: 0; width:300px; height:595px; background:#155f8c; display: block; text-align:center; padding:25px; box-sizing:border-box; -webkit-box-sizing:border-box; position:absolute; }
+.content .inter .left  li {display:inline-block;   font-size:12px; vertical-align: middle; margin-top:10px; text-align:center; margin-bottom:10px; color:#ffff;  width:40%;vertical-align: center;}
+.content .inter .left li p {margin-top:5px; text-align:center;   display:block; font-size:13px;}
+
+/*.content .inter .box1{display:inline-block; position:absolute; float:right;width:610px; height:290px; padding:0 15px 15px 15px; background:red;}*/
+
+.content .box1{position:absolute; display: inline-block; float:left; width:610px; height:290px; margin:0 15px 15px 315px; background:#ffff;}
+
+.content .box2{position:absolute; display: inline-block; float:left; width:300px; height:290px; margin:0 15px 15px 940px; background:#26a19c;}
+
+.content .box3{position:absolute; display: inline-block; float:left; width:300px; height:290px; margin:305px 15px 15px 315px; background:#1698c9;}
+
+.content .box4{position:absolute; display: inline-block; float:left; width:610px; height:290px; margin:305px 15px 15px 630px; background:#ffff;}
+
+
+.content .box1 .tittle{margin:20px; padding:20px 0;  display: inline-block;}
+.content .box1 .tittle strong{line-height:40px; font-size:25px;}
+.content .box1 .tittle p {line-height:19px; font-size:14px; padding-top:20px;}
+.content .box1 .tittle img{padding-top:30px;}
+
+.content .box1 ul {display:inline-block;  display: inline-block;}
+.content .box1 ul li p,
+.content .box1 ul li img{float:left;}

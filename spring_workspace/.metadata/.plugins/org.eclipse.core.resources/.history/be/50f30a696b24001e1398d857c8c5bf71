@@ -1,0 +1,27 @@
+package com.care.dbQuiz.member;
+
+import javax.mail.internet.MimeMessage;
+import javax.xml.soap.MimeHeader;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.stereotype.Service;
+
+@Service
+public class MailService {
+	
+	@Autowired private JavaMailSender mailSender;
+	
+	public void sendMail(String to, String subject, String content) {
+		MimeMessage message = mailSender.createMimeMessage();
+		
+		try {
+			MimeMessageHelper messageHelper = new MimeMessageHelper(message, true, "UTF-8");
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Tue Jul 18 15:01:51 KST 2023
+org.eclipse.jst.jee.server\:dbQuiz=C\:\\Users\\hi\\Desktop\\apache-tomcat-9\\wtpwebapps\\dbQuiz
+org.eclipse.jst.jee.server\:ajaxBasic=C\:\\Users\\hi\\Desktop\\apache-tomcat-9\\wtpwebapps\\ajaxBasic
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\hi\\.m2\\repository\\org\\springframework\\spring-web\\5.3.28\\spring-web-5.3.28.jar=C\:\\Users\\hi\\Desktop\\apache-tomcat-9\\wtpwebapps\\dbQuiz\\WEB-INF\\lib\\spring-web-5.3.28.jar

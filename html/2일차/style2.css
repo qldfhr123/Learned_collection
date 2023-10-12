@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+body,h1,h2,h3,h4,h5,h6,p,table,tr,th,td,ul,ol,li{font-family:"Noto Sans KR"; margin:0; padding:0;}
+img{border:0;}
+a{color:#454545; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+
+/*레이아웃*/
+ul li{list-style:none;}/*list-style:none; 불릿제거*/
+
+
+.list{width: 300px; margin:100px auto; border:1px solid red;}
+.list ul{padding:20px; background:yellow;}
+.list ul li{border-left:3px solid red; margin:15px 0 ;}

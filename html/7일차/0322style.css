@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+table{width:800px; margin:0 auto; border-collapse:collapse; border-top:2px solid #000;}
+th{background:#f5f5f5;}
+th,td{padding:15px; border-bottom:1px solid #ddd;}
+
+
+
+.btn_warp{text-align:center; margin-top:50px;}
+.btn_style1{width:130px; height:45px; background:#000; border:0; font-size:16px; color:#fff;}
+.btn_style2{width:130px; height:45px; background:#555; border:0; font-size:16px; color:#fff;}
+.btn_style3{width:130px; height:45px; background:#333; border:0; font-size:16px; color:#fff;}
+
+
+
+
+.table td > div {margin-bottom:50px; background:#ededed; border:1px solid #ddd; padding:20px; font-size:14px; height:80px;}
+
+.overflow_auto{overflow:auto;}
+.overflow_hidden{overflow:hidden;}
+.overflow_scroll{overflow:scroll;}
+
+
+/*form-공통*/
+input,
+select,
+textarea,
+button{vertical-align:middle;}
+input:focus{outline:none;}
+select:focus{outline:none;}
+textarea:focus{outline:none;}
+
+input[type="text"]{width:100%; height:45px; border:1px solid #ddd; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; font-size:16px; color:#222;}
+input[type="text"]::-webkit-input-placeholder {color:#7e7c7c;}
+input[type="text"]:-input-placeholder {color:#7e7c7c;}
+input[type="text"]:-ms-input-placeholder {color:#7e7c7c;}
+input[type="text"]::-moz-input-placeholder {color:#7e7c7c;}
+
+input[type="password"]{width:100%; height:45px; border:1px solid #ddd; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; font-size:16px; color:#222;}
+input[type="password"]::-webkit-input-placeholder {color:#7e7c7c;}
+input[type="password"]:-input-placeholder {color:#7e7c7c;}
+input[type="password"]:-ms-input-placeholder {color:#7e7c7c;}
+input[type="password"]::-moz-input-placeholder {color:#7e7c7c;}
+
+select{width:100px; height:45px; border:1px solid #ddd; padding:0 10px; background:url(arrow.png) no-repeat 95% 50%; font-size:16px; color:#222; box-sizing:border-box; -webkit-box-sizing:border-box; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none;appearance:none;}
+select::-ms-expand{display: none;}
+
+textarea{width:100%; height:250px; border:1px solid #ddd; padding:20px; font-size:16px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+
+
+.form_w5 {width:5% !important;}
+.form_w10 {width:10% !important;}
+.form_w15 {width:15% !important;}
+.form_w20 {width:20% !important;}
+.form_w25 {width:25% !important;}
+.form_w30 {width:30% !important;}
+.form_w35 {width:35% !important;}
+.form_w40 {width:40% !important;}
+.form_w45 {width:45% !important;}
+.form_w50 {width:50% !important;}
+.form_w55 {width:55% !important;}
+.form_w60 {width:60% !important;}
+.form_w65 {width:65% !important;}
+.form_w70 {width:70% !important;}
+.form_w75 {width:75% !important;}
+.form_w80 {width:80% !important;}
+.form_w85 {width:85% !important;}
+.form_w90 {width:90% !important;}
+.form_w95 {width:95% !important;}
+.form_w100 {width:100% !important;}
+/*!important; 명령 1순위*/

@@ -1,0 +1,32 @@
+<%@page import="session.MemberDTO"%>
+<%@page import="session.MemberDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<jsp:useBean id="LoginDto" class="actionTag.LoginDTO"></jsp:useBean>
+<%--loginDTO.setId(request.getParameter("id")); --%>
+
+<jsp:setProperty property="id" name="LoginDto"/>
+<jsp:setProperty property="pw" name="LoginDto"/>
+
+
+<%--loginDto.getId(); 
+
+아이디 :<jsp:setProperty property="id" name="LoginDto"/>
+비밀번호 : <jsp:setProperty property="pw" name="LoginDto"/>--%>
+<%
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	
+	
+	MemberDAO memberDao = new MemberDAO();
+	MemberDTO memberDto = memberDao.selectId(id);
+	memberDao.disConnection();
+	if(memberDto != null && memberDto.getPw().equals(pw)){
+		session.setAttribute("id", "admin");
+		response.sendRedirect("index.jsp");
+	}else{
+		response.sendRedirect("login.jsp");
+	}
+%>
+

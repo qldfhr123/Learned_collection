@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.RegController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="91.0" prefWidth="650.0" style="-fx-border-color: #5b9bd5;">
+         <children>
+            <Label contentDisplay="CENTER" text="sing up" textFill="#5b9bd5">
+               <font>
+                  <Font name="Arial Bold Italic" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="75.0" prefWidth="100.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="주" textFill="WHITE">
+               <font>
+                  <Font name="Wingdings 3" size="18.0" />
+               </font>
+            </Label>
+            <Label text="인" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="105.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="ID" textFill="WHITE" />
+            <TextField fx:id="sid" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="PW" textFill="WHITE" />
+            <TextField fx:id="spw" />
+         </children>
+      </HBox>
+      <VBox alignment="TOP_CENTER" prefHeight="75.0" prefWidth="100.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="정" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="보" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="105.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="이름" textFill="WHITE" />
+            <TextField fx:id="sna" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="닉네임" textFill="WHITE" />
+            <TextField fx:id="sni" />
+         </children>
+      </HBox>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="강" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="아" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="지" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="dog name" textFill="WHITE" />
+            <TextField fx:id="sdn" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="나이" textFill="WHITE" />
+            <TextField fx:id="sda" />
+         </children>
+      </HBox>
+      <VBox alignment="TOP_CENTER" prefHeight="98.0" prefWidth="100.0" style="-fx-background-color: #abcee2;">
+         <children>
+            <Label text="정" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="보" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="종류" textFill="WHITE" />
+            <ComboBox fx:id="sdb" prefWidth="150.0" promptText="선택" style="-fx-background-color: #ffffff;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="275.0" spacing="30.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Label text="강아지 프로필" textFill="WHITE" />
+            <Button fx:id="sdp" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Button" textFill="#5b9bd5" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="115.0" prefWidth="650.0" spacing="30.0" style="-fx-background-color: #ffffff; -fx-border-color: #5b9bd5;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label text="우리집 강아지 자랑" textFill="#5b9bd5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="459.0">
+               <children>
+                  <TextField fx:id="smp" prefHeight="70.0" prefWidth="438.0" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="650.0" style="-fx-background-color: #5b9bd5;">
+         <children>
+            <Button fx:id="sin" mnemonicParsing="false" onAction="#regProc" prefHeight="44.0" prefWidth="152.0" style="-fx-background-color: #ffffff;" text="가입" textFill="#5b9bd5" />
+         </children>
+      </HBox>
+   </children>
+</FlowPane>

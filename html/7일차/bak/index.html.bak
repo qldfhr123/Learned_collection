@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+ </head>
+ <body>
+
+    <div id="wrap">
+		<div class="content">
+			<h2>
+				유용한 <span>서비스</span>
+                <p>알고 있으면 유용한 바로가기 서비스를 제공합니다.</p>
+			</h2>
+			<div class="box">
+				<!-- left -->
+				<div class="quick">left</div>
+				<!-- left -->
+
+				<!-- right -->
+				<div class="inner">right</div>
+				<!-- right -->
+			</div>
+		</div>
+    </div>
+  
+ </body>
+</html>

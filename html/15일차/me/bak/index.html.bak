@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ </head>
+ <body>
+
+    <div id="wrap">
+	    <!-- header -->
+		<div class="header">
+		    <!-- top -->
+			<div class="top">
+				<div class="inner">
+					<h1><a href="#"><img src="image/logo.jpg" alt="행복한 원덕"></a></h1>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">로그인</a></li>
+						<li>ㅣ</li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+					<div class="search">
+						<a href="#"><span class="material-symbols-outlined">search</span></a>
+					</div>
+				</div>
+			</div>
+			<!-- //top -->
+			<!-- gnb -->
+			<div class="gnb inner">
+				<ul>
+					<li><a href="#">행복한 원덕은?</a></li>
+					<li><a href="#">사업분야</a></li>
+					<li><a href="#">대표상품</a></li>
+					<li><a href="#">사회서비스</a></li>
+					<li><a href="#">커뮤니티</a></li>
+				</ul>
+			</div>
+			<!-- //gnb -->
+		</div>
+		<!-- //header -->
+
+		<!-- sub_visual -->
+		<div class="sub_visual">
+			<div>
+				<h2>happy wondeok</h2>
+				<h3>행복한 미래를 준비하는 기업</h3>
+				<h4>행복한 원덕</h4>
+				<p><img src="image/main/rolling.png" alt="스크롤"></p>
+			</div>
+		</div>
+		<!-- //sub_visual -->
+
+		<!-- content -->
+		<div class="content">
+			<!-- quick -->
+			<div class="quick">
+				<ul class="inner_1400">
+					<li><a href="#">청소사업</a></li>
+					<li><a href="#">소독사업</a></li>
+					<li><a href="#">철물사업</a></li>
+				</ul>
+			</div>
+			<!-- //quick -->
+			<!-- notice -->
+			<div class="notice">
+				<div class="inner">
+					<div>
+						<h2>notice</h2>
+						<p>공지사항</p>
+						<a href="#"><img src="image/main/arrow.png" alt="바로가기"></a>
+					</div>
+					<ul>
+						<li>
+							<a href="#">
+								<p>행복한 원덕 홈페이지가 오픈했습니다.</p>
+								<b>2023.03.29</b>
+								<span>더보기+</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p>행복한 원덕 홈페이지가 오픈했습니다.</p>
+								<b>2023.03.29</b>
+								<span>더보기+</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p>행복한 원덕 홈페이지가 오픈했습니다.</p>
+								<b>2023.03.29</b>
+								<span>더보기+</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //notice -->
+			<!-- service -->
+			<div class="service">
+				<h2>social<span> service</span></h2>
+				<p>행복한 원덕이 주민과 함께하는 작은 실천! 사랑나누기</p>
+                <ul>
+					<li>
+						<a href="#">
+							<p><img src="image/main/service_img.jpg" alt="service_img1"></p>
+							<div>
+								<p>사랑의 김장</p>
+								<p>기업과 주민이 함께하는 김치전달</p>
+							</div>
+						</a>
+					</li>
+					<li>
+					    <a href="#">
+					    <p><img src="image/main/service_img.jpg" alt="sevice_img2"></p>
+						<div>
+						    <p>소독방역 서비스</p>
+							<p>주민들의 위생을 위한 소독서비스</p>
+						</div>
+						</a>
+					</li>
+					<li>
+					    <a href="#">
+					    <p><img src="image/main/service_img.jpg" alt="sevice_img3"></p>
+						<div>
+						    <p>헌혈</p>
+							<p>행복한 원덕 직원들이 함께합니다</p>
+						</div>
+						</a>
+					</li>
+                </ul>
+			</div>
+			<!-- //service -->
+			<!-- etc -->
+			<div class="etc">
+				<div class="inner">
+					<div class="mov">
+						<iframe width="100%" height="450" src="https://www.youtube.com/embed/EHJ4L5seRZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<ul>
+						<li>
+							<p><b>회사 소개</b></p>
+							<p>(주)행복한 원덕은 ‘다함께 사회공원,<br> 
+                            더불어사는 행복한원덕 이라는 이념하에<br>
+                            원덕지역의 행복한 미래를 준비하는 기업</p>
+						    <a href="#">자세히보기</a>
+						</li>
+						<li>
+							<p><b>오시는 길</b></p>
+							<p>(주)행복한 원덕은 ‘다함께 사회공원,<br> 
+                            더불어사는 행복한원덕 이라는 이념하에<br>
+                            원덕지역의 행복한 미래를 준비하는 기업</p>
+						    <a href="#">자세히보기</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //etc -->
+		</div>
+		<!-- //content -->
+
+		<!-- footer -->
+		<div class="footer">
+			<div class="sns">
+				<div class="inner">
+					<h3>033-650-3320</h3>
+					<p><a href="#"><img src="image/footer_img.png" alt="강원도 사회적기업"></a></p>
+					<div>
+						<h4>행복한 원덕 <b>SNS</b></h4>
+						<ul>
+							<li>
+							    <a href="#"><img src="image/facebook.png" alt="페이스북"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/instagram.png" alt="인스타그램"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/blog.png" alt="블로그"></a>
+							</li>
+							<li>
+							    <a href="#"><img src="image/youtube.png" alt="유투브"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="info inner">
+				<ul>
+					<li>
+						<b>상호</b> (주)행복한원덕 사회적기업인증&nbsp;&nbsp;&nbsp;
+						<b>대표자명</b> 김경식
+					</li>
+					<li>
+						<b>주소</b> 강원도 삼척시 원덕읍 옥원노곡1길 15-52&nbsp;&nbsp;&nbsp;
+						<b>전화</b> 033-575-9959
+					</li>
+					<li>
+						<b>사업자번호</b> 429-86-01072&nbsp;&nbsp;&nbsp;
+						<b>통신판매신고번호</b> 제2019-강원강릉-0041호
+					</li>
+					<li>
+						<b>메일</b> happywondeok@naver.com&nbsp;&nbsp;&nbsp;
+					</li>
+				</ul>
+			</div>
+			<div class="copy">
+				<div class="inner">copyright (c) happywondeok inc. all rights reserved.</div>
+			</div>
+		</div>
+		<!-- //footer -->
+    </div>
+
+  
+ </body>
+</html>
